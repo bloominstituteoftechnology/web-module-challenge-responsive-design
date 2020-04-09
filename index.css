@@ -1,0 +1,143 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+   
+ 
+ *{
+  background-color: yellow;
+}
+
+h1 { 
+  text-align: center;
+  font-size: 50px;
+  font-family: verdana, sans-serif;
+  color: purple;
+ background-color: yellow;
+  padding:10px;
+  
+}
+a {
+  text-decoration: none;
+  color: purple;
+  display: flex; 
+  border: 2px solid black;
+  justify-content: flex-end;
+  flex-direction: row;
+  background-color: yellow;
+  padding: 15px; 
+  font-family: verdana, sans-serif
+}
+
+a:hover {
+    color: black;
+  }
+  
+  .end {
+    color: green;
+    background-color: yellow;
+    justify-content: center;
+    font-size: 26px;
+  }
+  button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 20px 30px;
+    text-align: center;
+    font-size: 36px;
+    cursor: pointer;
+    align-items:center; 
+  }
+   
+  nav {
+    display: flex;
+   justify-content: center;
+    align-content: center;
+    flex-grow: 1; 
+    
+  }
+  
+  /* img {
+    width: 25%;
+    padding: 1%;
+    margin: 20%;
+    display: flex;
+  } */
+  .imageText {
+    display: flex;
+    width: 600px; 
+    height: 600px;
+  }
+  
+  .container .flexbox {
+    background-color:yellow;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  p{
+    font-size: 1.6rem;
+    padding: 10px;
+    font-family: verdana, sans-serif;
+    flex-direction: left;
+    flex-grow: 1;
+  }
+
+  .hide-element {
+    border: 0;
+    clip: rect(1px 1px 1px 1px); 
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+.row {
+    display: flex;
+    width: 100vw;
+
+}
+.column {
+    width: 33.33%;
+    padding: 5px; 
+    display: flex;
+  }
+  .column img{
+    height: 250px;
+    width: 100%;
+    padding: 5px;
+  }
+
+  @media only screen and (max-width: 800px){
+p {
+    width: 60%;
+    background-color: pink;
+    font-size: 1.4rem;
+    border: 2px dotted purple;
+  } 
+}
+
+@media only screen and (max-width: 450px){
+img { 
+     border: 2px solid green;
+}
+}

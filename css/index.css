@@ -49,7 +49,42 @@ table {
 
 /*phone 360 X 640*/
 @media (max-width:360 ) and (max-height: 640){
-
+	#headCon{
+		display: flex;
+		position: relative;
+		box-sizing: border-box;
+		}
+		#headCon .heading{
+			position: absolute;
+			justify-content: space-around;
+		}
+		
+		#nav{
+			display:flex;
+			box-sizing: border-box;
+			justify-content: center;
+		
+		}
+		#nav .navBar{
+			width:85%;
+			height: 140px;
+			background: black;
+		}
+		
+			.container {
+				display: flex;
+				justify-content: flex-end;
+			  }
+			  
+			  .container .item {
+				width: 80px;
+				height: 34px;
+				background: white;
+				border: 1px solid black;
+				margin: 20px;
+				border-radius: 19%;
+			  }
+			  
 
 	
 }
@@ -62,9 +97,7 @@ table {
 }
 
 /*Desktop 1920 X 1080*/
-#navContainer{
 
-}
 
 #nav{
 	display:flex;
@@ -72,7 +105,7 @@ table {
 	justify-content: center;
 
 }
-.navBar{
+#nav .navBar{
 	width:85%;
 	height: 140px;
 	background: black;
@@ -86,12 +119,21 @@ table {
 	  .container .item {
 		width: 80px;
 		height: 34px;
-		background: white;
+		background: red;
 		border: 1px solid black;
 		margin: 20px;
 		border-radius: 19%;
+		
 	  }
+	  button{
+		  border-radius: 170%;
+			background-color: greenyellow;
 
+		  color:black;
+		width: 100%;
+		height: 100%;
+		align-content: center;
+	}
 
 
 

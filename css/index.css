@@ -62,32 +62,39 @@ table {
 }
 
 /*Desktop 1920 X 1080*/
-
-@media (max-width:1920 ) and (max-height: 1080){
-
-.container{
-display:flex;
-
-background-color: black;
-
-background-clip:content-box;/*border padding8*/
-}
-
-.container1{
-
-	height: 120px;
-width: 80px;
-
-
+#navContainer{
 
 }
-.item1{
-	width:
+
+#nav{
+	display:flex;
+	box-sizing: border-box;
+	justify-content: center;
+
+}
+.navBar{
+	width:85%;
+	height: 140px;
+	background: black;
 }
 
+	.container {
+		display: flex;
+		justify-content: flex-end;
+	  }
+	  
+	  .container .item {
+		width: 80px;
+		height: 34px;
+		background: white;
+		border: 1px solid black;
+		margin: 20px;
+		border-radius: 19%;
+	  }
 
 
-}
+
+
 
 
 

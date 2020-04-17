@@ -48,7 +48,7 @@ table {
 }
 
 /*phone 360 X 500 computer thinks 360 pixles is 500px add 200px width*/
-@media screen and (max-width:560px) and (max-height:500px){
+@media (max-width:560px) and (max-height:500px){
 	
 	html > body > nav > div#navContainer > div#nav {
 		display:flex;
@@ -66,13 +66,15 @@ table {
 	}
 	
 	html > body > nav > div#navContainer > div#nav > div.navBar > div.container{
-		width:250px;
+		
+		width:400px;
 		height:70vh;
 			display: flex;
 			flex-wrap: wrap;
 			flex-direction: column;
 			box-sizing: border-box;
 			align-items: center;
+			
 		  }
 		  
 		  html > body > nav > div#navContainer > div#nav > div.navBar > div.container > div.item {
@@ -106,6 +108,57 @@ table {
 	
 
 
+	@media (max-width:1000px) and (max-height:640px){
+	
+		body > nav > div#navContainer > div#nav {
+			display:flex;
+			flex-wrap: wrap;
+		align-content: center;
+		box-sizing: border-box;
+		}
+		body > nav > div#navContainer > div#nav > div.navBar{
+			width:85%;
+			height: 1140px;
+			background: black;
+			
+			
+			
+		}
+		
+		 body > nav > div#navContainer > div#nav > div.navBar > div.container{
+			width:250px;
+			height:30vh;
+				display: flex;
+				flex-wrap: wrap;
+				
+				
+			  }
+			  
+			  html > body > nav > div#navContainer > div#nav > div.navBar > div.container > div.item {
+				width: 80px;
+				height: 34px;
+				background: black;
+				border: 1px solid black;
+				margin: 20px;
+				border-radius: 19%;
+				flex-direction: column;
+				
+				
+			  }
+			  html > body > nav > div#navContainer > div#nav > div.navBar > div.container > div.item > button.btn{
+				  border-radius: 170%;
+					background-color: greenyellow;
+		
+				  color:black;
+				width: 100%;
+				height: 100%;
+				
+			}
+		
+	
+		
+		}
+
 		
 
 
@@ -115,7 +168,7 @@ table {
 
 
 /*Desktop 1920 X 1080*/
-@media screen and (max-width:2120px) and (max-height:1080px){
+@media (max-width:2120px) and (max-height:1080px){
 	
 	#nav{
 		display:flex;

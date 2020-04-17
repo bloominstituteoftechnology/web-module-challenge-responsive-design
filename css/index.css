@@ -126,7 +126,7 @@ table {
 		}
 		
 		 body > nav > div#navContainer > div#nav > div.navBar > div.container{
-			width:250px;
+			width:350px;
 			height:30vh;
 				display: flex;
 				flex-wrap: wrap;
@@ -134,10 +134,10 @@ table {
 				
 			  }
 			  
-			  html > body > nav > div#navContainer > div#nav > div.navBar > div.container > div.item {
+			  body > nav > div#navContainer > div#nav > div.navBar > div.container > div.item {
 				width: 80px;
 				height: 34px;
-				background: black;
+				background: silver;
 				border: 1px solid black;
 				margin: 20px;
 				border-radius: 19%;
@@ -145,10 +145,10 @@ table {
 				
 				
 			  }
-			  html > body > nav > div#navContainer > div#nav > div.navBar > div.container > div.item > button.btn{
+			  body > nav > div#navContainer > div#nav > div.navBar > div.container > div.item > button.btn{
 				  border-radius: 170%;
 					background-color: greenyellow;
-		
+		flex-wrap: wrap;
 				  color:black;
 				width: 100%;
 				height: 100%;

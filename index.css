@@ -1,25 +1,4 @@
-/* Add CSS styling here */
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
@@ -61,7 +40,7 @@ h1 {
     display: flex;
     justify-content: center;
     color: #363636;
-    font-size: 50px;
+    font-size: 4.5rem;
     font-weight: 700;
     text-transform: uppercase;
     margin: 5px;
@@ -77,7 +56,7 @@ nav {
 nav a {
     display: inline-block;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 1.0rem;
     text-decoration: none;
     padding: 10px 30px;
     margin: 0px;
@@ -96,7 +75,7 @@ h2 {
     margin-top: 20px;
     margin-bottom: 20px;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 2.0rem;
     color: #f19292;
 }
 
@@ -105,6 +84,7 @@ div.info {
     justify-content: center;
     margin: 50px;
     color: #363636;
+    font-size: 1.0rem;
 }
 
 img {
@@ -145,7 +125,7 @@ img {
   .gallery .description {
     width: 175px;
     line-height: 40px;
-    font-size: 20px;
+    font-size: 1.0rem;
     color: #363636;
     margin: auto;
      
@@ -160,7 +140,7 @@ img {
   footer a {
       display: inline-block;
       text-transform: uppercase;
-      font-size: 15px;
+      font-size: 1.0rem;
       text-decoration: none;
       padding: 10px 30px;
       margin: 0px;
@@ -172,3 +152,39 @@ img {
         background-color: #b7efcd;
         color: #363636;
   }
+
+@media (max-width: 500px) {
+  nav {
+    flex-direction: column;
+  }
+  
+  nav a {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .gallery {
+    flex-wrap: wrap-reverse;
+    
+  }
+  
+  footer {
+    flex-direction: column;
+  }
+  
+  footer a {
+    display: flex;
+    justify-content: center;
+  }
+}
+    
+@media (max-width: 800px) {
+  
+   .gallery {
+     flex-wrap: wrap-reverse;
+     justify-content: center;
+    
+  }
+}
+
+ 

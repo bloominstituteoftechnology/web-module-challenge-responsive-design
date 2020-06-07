@@ -1,0 +1,198 @@
+/* general styling */
+
+* {
+    box-sizing: border-box;
+    padding: 0; 
+    margin: 0; 
+    max-width: 100%;
+    /* border: 1px solid red;     */
+}
+
+html{
+    font-size: 62.5%; 
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-image: url(../images/MAM.min.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+
+    width: 100%; 
+
+}
+
+a { 
+    text-decoration: none;
+    color:black; 
+}
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+/* header styling*/ 
+
+/* nav styles */
+header nav{
+    position: fixed; 
+    width: 100%;
+    background-color: lightsteelblue;
+    display:flex;
+    justify-content: space-between;
+}
+
+.title{
+    width: 25%;
+}
+
+h1{
+    font-size: 3rem; 
+}
+.navLinks {
+    width: 45%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navLinks a{
+    font-size: 2rem;
+}
+
+.navLinks a:hover{
+    font-size: 2.2rem; 
+}
+
+
+/* aboutMe styling*/
+.aboutMeContainer{
+    height: 70vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.mainTitles{
+    text-align: center; 
+}
+
+.mainTitles h2{
+    font-size: 8rem;
+}
+.mainTitles a{
+    font-size: 4rem;
+    background-color: lightsteelblue;
+    border-radius: 0.5rem;
+    opacity: 75%;
+}
+.mainTitles a:hover{
+    font-size: 4.5rem;
+}
+
+/* project photo gallery styling*/
+
+
+.container{
+    /* background-color: lightsteelblue; */
+    border-color: green;
+    width: 100%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+}
+.fourProjects{
+    padding: 3%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.fourProjects div{
+    padding: 1%;
+    width: 21%; 
+}
+.fourProjects div:hover{
+    width: 22%; 
+}
+
+.container div p{
+    text-align: center;
+    font-size: 2rem;
+    
+    background-color: lightsteelblue;
+    opacity: 75%;
+    border-radius: .5rem;
+}
+
+/* footer styling */ 
+footer{
+    background-color: wheat;
+    padding: 2%;
+    text-align: center; 
+}
+footer div{
+    padding:1%; 
+    display: flex; 
+    justify-content: center;
+    flex-direction: column; 
+}
+footer h3{
+    font-size: 2rem;
+}
+footer a {
+    font-size: 1.5rem; 
+}
+footer a:hover {
+    font-size: 1.7rem; 
+}
+
+
+
+/* media queries */
+
+/* 800px */
+@media (max-width: 800px){
+    .navLinks a {
+        font-size: 1.5rem; 
+    }
+
+    .mainTitles h2{
+        font-size: 7rem;
+    }
+    .mainTitles a{
+        font-size: 3rem;
+    }
+    .mainTitles a:hover{
+        font-size: 3.5rem;
+    }
+
+    .fourProjects div{
+        width: 27.5%; 
+    }
+    .fourProjects div:hover{
+        width: 28.5%; 
+    }
+    .container div p{
+        font-size: 1.8rem;
+    }
+}
+
+/* 500px */
+@media (max-width: 500px){
+    .fourProjects div{
+        width: 41%; 
+    }
+    .fourProjects div:hover{
+        width: 42%; 
+    }
+
+    footer h3{
+        font-size: 1.6rem; 
+    }
+    footer a{
+        font-size: 1.3rem; 
+    }
+
+
+}

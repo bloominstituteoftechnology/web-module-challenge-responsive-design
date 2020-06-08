@@ -36,7 +36,11 @@ body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
 }
-
+.selfie{
+  display: flex;
+  height: auto;
+  width: auto;
+}
 /* Remove list styles on ul, ol elements with a class attribute */
 ul[class],
 ol[class] {
@@ -129,4 +133,33 @@ footer{
     display: flex;
     justify-content: space-evenly;
     align-content: center;
+}
+
+@media(max-width:800px){
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .name{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .home .links{
+    display: flex;
+    flex-direction: column;
+  }
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  h1{
+    text-align: center;
+  }
+  .projectsPhotos{
+    
+  }
+  
 }

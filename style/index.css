@@ -1,0 +1,206 @@
+/*CSS RESET HERE*/
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    max-width:100%;
+    /*border: 1px solid grey; /*border to make styling easier*/
+}
+html{
+    font-size: 62.5%;
+}
+header{
+    background-color:darkgray;
+}
+h1{
+    font-size:7rem;
+    margin-left: 2%;
+}
+
+.links a{ /* Navigation buttons*/
+    font-size: 3rem;
+    color:black;
+    background-color: peachpuff;
+    padding: .7%;
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+@keyframes pulse{
+    0%{
+    background-color: peachpuff
+    }
+    100% {
+        background-color:seagreen;
+    }
+}
+.links a:hover{
+    animation: pulse 5s infinite;
+}
+.links {
+    display:flex;
+}
+nav div{ /*Creates the margin for navigation*/
+    margin-left: 3%;
+}
+
+
+.section1{/* spacing on section 1*/
+    display:flex;
+
+    flex-direction:row;
+    justify-content: space-around;
+    margin-top: 1%;
+    margin-bottom:1%;
+}
+
+.bigImageContainer{
+    width:47%;
+}
+.headingText{
+    display:flex;
+    flex-direction:column;
+    width:47%;
+}
+.headingText h2{
+    font-size: 6rem;
+    margin-top: 10%;
+}
+.headingText a{
+    font-size: 3rem;
+    padding: .7%;
+    background-color:peachpuff;
+    color:black;
+    width:20%;
+    border-radius: 3px;
+    margin: 1%;
+    text-align: center;
+    border: 1px solid black;
+    text-decoration: none;
+}
+.headingText p{
+    font-size: 2.7rem;
+}
+
+
+#projectSection{
+display:flex;
+flex-wrap:wrap;
+font-size: 2.4rem;
+text-align:center;
+}
+#projectSection div{
+    width:22.5%;
+    margin: 1%;
+}
+footer{
+    text-align:center;
+    background-color:darkgray;
+}
+footer h2{
+    font-size: 4.5rem;
+    margin: 1%;
+}
+footer a{
+    font-size:2.4rem;
+    padding: 0.3%;
+    background-color:peachpuff;
+    color:black;
+    margin: 1%;
+    border: 1px solid black;
+    text-decoration: none;
+}
+@media(max-width:1920px){ /*widescreen view*/
+.headingText p{
+    font-size:3rem; /*just boosting the font-size a little to make it look cleaner*/
+}
+}
+@media(max-width:1366px){/*laptop view*/
+.headingText a{
+    width:30% /*added width to button so its all on one line*/
+}
+}
+@media(max-width:800px){
+    header{
+        text-align: center;
+    }
+    header div{ /*aligning the navigation to stack*/
+        display:flex;
+        justify-content:center;
+        flex-wrap:wrap;
+    }
+    header div a{ /*letting our nav drop to next line*/
+        width:55%;
+    }
+    .bigImageContainer{
+        margin: 1.5%;
+    }
+    .section1{
+        flex-wrap:wrap;
+    }
+    .bigImageContainer{
+    width:100%;
+    }
+.headingText{
+    width:100%;
+    text-align:center;
+}
+.headingText{
+    align-items: center;
+}
+.headingText h2{
+    margin:1%;
+}
+#projectSection{
+font-size: 2rem;
+justify-content: center;
+}
+#projectSection img{
+    width:100%;
+    border-radius: 10px;;
+}
+#projectSection div{
+    width:40%;
+    justify-content: space-around;
+}
+
+}
+
+@media(max-width:500px){ /*Phone Screen*/
+#projectSection{
+    font-size: 2rem;
+}
+#projectSection img{
+width:100%;
+}
+.headingText p{
+    font-size: 2rem;
+}
+.headingText a{
+    width: 40%;
+}
+}
+@media(max-width:360px){ /*Iphone size stretch goal*/
+h1{
+    font-size:7rem;
+}
+.links a{
+    font-size:2rem;
+}
+.headingText h2{
+    font-size:5rem;
+}
+.headingText a{
+    width:50%;
+}
+.headingText p{
+    font-size: 1.6rem;
+}
+footer h2{
+    font-size: 3.5rem;
+}
+#projectSection{
+    font-size: 1.8rem;
+}
+
+}

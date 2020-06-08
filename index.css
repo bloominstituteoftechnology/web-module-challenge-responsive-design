@@ -102,17 +102,17 @@ h1{
     display: flex;
     flex-direction: column;
 }
-.fourProjects{
+.sampleProjects{
     padding: 3%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
-.fourProjects div{
+.sampleProjects div{
     padding: 1%;
     width: 21%; 
 }
-.fourProjects div:hover{
+.sampleProjects div:hover{
     width: 22%; 
 }
 
@@ -150,6 +150,16 @@ footer a:hover {
 
 
 /* media queries */
+/* 1920px - Widescreen */
+@media (max-width: 1920px)
+{
+    .navLinks a, h1 {
+        font-size: 3.5rem; 
+    }
+    footer h3, footer a{
+        font-size: 2.5rem;
+    }
+}
 
 /* 800px */
 @media (max-width: 800px){
@@ -167,10 +177,10 @@ footer a:hover {
         font-size: 3.5rem;
     }
 
-    .fourProjects div{
+    .sampleProjects div{
         width: 27.5%; 
     }
-    .fourProjects div:hover{
+    .sampleProjects div:hover{
         width: 28.5%; 
     }
     .container div p{
@@ -180,10 +190,10 @@ footer a:hover {
 
 /* 500px */
 @media (max-width: 500px){
-    .fourProjects div{
+    .sampleProjects div{
         width: 41%; 
     }
-    .fourProjects div:hover{
+    .sampleProjects div:hover{
         width: 42%; 
     }
 
@@ -194,4 +204,15 @@ footer a:hover {
         font-size: 1.3rem; 
     }
 
+}
+
+/* 360px iphone*/
+@media (max-width: 360px)
+{
+    .navLinks a, h1 {
+        font-size: 1rem; 
+    }
+    .mainTitles h2, .mainTitles a{
+        font-size: 3.5rem;
+    }
 }

@@ -41,7 +41,7 @@ Use the checklist below to guide your work today. Your final product should be p
 - [X] Insert a viewport meta tag into the head of the project with these html attributes: content="width=device-width, initial-scale=1"
 - [X] Introduce max-width media queries into your project at 800px and 500px
 - [ ] Add accessability features to your webpage
-- [ ] Design should closely follow the [mobile wireframe](Wireframes/) given for your chosen layout
+- [X] Design should closely follow the [mobile wireframe](Wireframes/) given for your chosen layout
 
 ### Task 2b: Exit Ticket
 
@@ -53,10 +53,10 @@ The completion of these questions is mandatory for MVP. However, passing the qui
 
 Once you finish the minimum viable project, work on any of the following stretch goals:
 
-- [ ]  Test your website at several breakpoints and refactor code as needed. A few common breakpoints are below:
-  - [ ]  iPhone: 360×640
-  - [ ]  Laptop: 1366×768
-  - [ ]  Widescreen: 1920×1080
+- [X]  Test your website at several breakpoints and refactor code as needed. A few common breakpoints are below:
+  - [X]  iPhone: 360×640
+  - [X]  Laptop: 1366×768
+  - [X]  Widescreen: 1920×1080
 - [ ] Test your webpage's accessibility with a screen reader like [this](https://support.google.com/accessibility/answer/7031755?hl=en)
 - [ ] Start over with min-width media queries to get a feel for how a mobile first approach would be like. I recommend making a branch of all your content in a new folder named "mobile-first" to keep it separate
 - [ ] Test your webpage's accessibility with a screen reader like [this](https://support.google.com/accessibility/answer/7031755?hl=en)

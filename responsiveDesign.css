@@ -1,16 +1,45 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
 
 body{
     background-image: url(https://wallpaperplay.com/walls/full/6/e/e/379673.jpg);
     color: white;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+*{
+  border: white solid 1px;
 }
 
 a{
   color: black;
 }
 
-*{
-  border: white solid 1px;
+header{
+  border-bottom: solid red 1px
 }
 
 h1{
@@ -22,6 +51,12 @@ h1{
     font-size: 3rem;
 }
 
+  h2{
+    color: red;
+    margin: 3rem;
+    font-size: 4rem;
+  }
+
 button{
   border:black solid 4px;
   background-color: red;
@@ -32,7 +67,7 @@ button{
 
 .links{
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   justify-content: flex-start;
   align-items: flex-end;
   padding: 1rem;
@@ -60,8 +95,81 @@ div .top{
   background-repeat: no-repeat;
   height: 40em;
   width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 #selfieButton{
   background-color: transparent;
+  font-size: xx-large;
+}
+
+#selfieButton:hover{
+  background-color: red;
+}
+
+#selfieButton:hover a{
+  color: black;
+}
+
+.selfieBackground{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.h1{
+  width:40%;
+}
+
+.middlePics{
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  flex-wrap: wrap;
+
+}
+
+.row1{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: space-between;
+  justify-content: end;
+}
+
+#pic1{
+  max-width: 30%;
+  padding:2rem
+}
+
+#pic2{
+  max-width: 30%;
+  padding: 2rem;
+}
+
+#pic3{
+  max-width: 30%;
+  padding:2rem
+}
+
+.row2{
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+}
+
+#pic4{
+  max-width: 30%;
+  padding:2rem
+}
+
+#pic5{
+  max-width: 30%;
+  padding: 2rem;
+}
+
+#pic6{
+  max-width: 30%;
+  padding:2rem
 }

@@ -1,101 +1,16 @@
-/* Box sizing rules */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-/* Remove default padding */
-ul[class],
-ol[class] {
-  padding: 0;
-}
-
-/* Remove default margin */
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-ul[class],
-ol[class],
-li,
-figure,
-figcaption,
-blockquote,
-dl,
-dd {
-  margin: 0;
-}
-
-/* Set core body defaults */
-body {
-  min-height: 100vh;
-  scroll-behavior: smooth;
-  text-rendering: optimizeSpeed;
-  line-height: 1.5;
-}
-.selfie{
-  display: flex;
-  height: auto;
-  width: auto;
-}
-/* Remove list styles on ul, ol elements with a class attribute */
-ul[class],
-ol[class] {
-  list-style: none;
-}
-
-/* A elements that don't have a class get default styles */
-a:not([class]) {
-  text-decoration-skip-ink: auto;
-}
-
-/* Make images easier to work with */
-img {
-  max-width: 100%;
-  display: block;
-}
-
-/* Natural flow and rhythm in articles by default */
-article > * + * {
-  margin-top: 1em;
-}
-
-/* Inherit fonts for inputs and buttons */
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
-
-/* Remove all animations and transitions for people that prefer not to see them */
-@media (prefers-reduced-motion: reduce) {
-  * {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
-}
 
 body{
     background-image: url(https://wallpaperplay.com/walls/full/6/e/e/379673.jpg);
     color: white;
 
 }
-/*
-*{
-    border: white solid 1px;
-}
-*/
+
 a{
-    color: rgb(255, 0, 0);
+  color: black;
 }
-img{
-    max-width: 30%;
+
+*{
+  border: white solid 1px;
 }
 
 h1{
@@ -104,63 +19,49 @@ h1{
     padding: 5%;
     font-family:'Brush Script Mt';
     text-shadow: red 5px 4px;
-    font-size: 6rem;
+    font-size: 3rem;
 }
 
-
-.name{
-    display: flex;
-    align-content: space-between;
+button{
+  border:black solid 4px;
+  background-color: red;
+  padding:15px 32px;
+  display: flex;
+  flex-direction: row;
 }
 
 .links{
-    display: flex;
-    justify-content: space-evenly;
-
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 1rem;
+  height: 2rem;
 }
 
-.projectsPhotos{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: space-between;
-    background: black;
-    justify-content: end;
-
+div .top{
+  display: flex;
 }
 
-footer{
-    display: flex;
-    justify-content: space-evenly;
-    align-content: center;
-}
-
-@media(max-width:800px){
-  .container{
-    display: flex;
-    flex-direction: column;
-  }
-
-  .name{
-    display: flex;
-    flex-direction: column;
-  }
-
-  .home .links{
-    display: flex;
-    flex-direction: column;
-  }
-  .container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  h1{
-    text-align: center;
-  }
-  .projectsPhotos{
-    display: flex;
-    flex-direction: row;
-  }
+.topBar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 4;
   
+}
+.selfie{
+  display: flex;
+  justify-content: center;
+}
+
+.selfieBackground{
+  background-image: url(https://scontent.fewr1-5.fna.fbcdn.net/v/t1.0-9/99557618_579527962947116_8086526277009276928_n.jpg?_nc_cat=110&_nc_sid=09cbfe&_nc_oc=AQmYJ1bYw5f-mLaLVUJ13zoxC4D5ivaRTeeoqnYlOanvtVquqOfdB8LxyyZdjCxrdvQ&_nc_ht=scontent.fewr1-5.fna&oh=5f717fc97ac9748313f2ee0cd7712b3a&oe=5F0197DC);
+  background-repeat: no-repeat;
+  height: 40em;
+  width: 100%;
+}
+
+#selfieButton{
+  background-color: transparent;
 }

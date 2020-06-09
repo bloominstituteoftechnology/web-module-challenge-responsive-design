@@ -31,7 +31,7 @@ body{
 }
 
 *{
-  border: white solid 1px;
+  border: white solid 1p;
 }
 
 a{
@@ -116,6 +116,7 @@ div .top{
   display: flex;
   align-items: center;
   justify-content: center;
+  background-position: center;
 }
 
 .h1{
@@ -124,18 +125,15 @@ div .top{
 
 .middlePics{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-shrink: 1;
   flex-wrap: wrap;
-
 }
 
 .row1{
   display: flex;
   flex-wrap: nowrap;
-  align-items: center;
-  align-content: space-between;
-  justify-content: end;
+  align-content: space-evenly;
 }
 
 #pic1{
@@ -173,3 +171,15 @@ div .top{
   max-width: 30%;
   padding:2rem
 }
+
+.footer{
+  display: flex;
+  justify-content: center;
+}
+
+footer{
+  background-color: rgb(61, 61, 61);
+  padding: 1rem;
+}
+
+@media(max-width: )

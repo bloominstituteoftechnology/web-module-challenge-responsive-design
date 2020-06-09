@@ -183,9 +183,7 @@ footer{
 }
 
 @media(max-width: 800px){
-  *{
-    border: solid white 1px;
-  }
+  /**{border: solid white 1px;}*/
 
   .topBar{
     display: flex;
@@ -196,6 +194,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 27%;
   }
 
   header{
@@ -216,8 +215,6 @@ footer{
     justify-content: center;
   }
   .pic1, .pic2, .pic3, .pic4, .pic5, .pic6{
-    background-color:pink;
-    width:;
   }
   .row1, .row2{
     display: flex;
@@ -226,5 +223,18 @@ footer{
     justify-content: space-around;
     max-width: ;
   }
+  img{
+    width: 100%;
+  }
+}
+
+@media(max-width:500px){
+
+  *{border:solid white 1p;}
+
+  .links{
+    margin-bottom: 40%;
+  }
+
 
 }

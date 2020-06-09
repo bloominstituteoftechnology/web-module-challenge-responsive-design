@@ -182,6 +182,15 @@ footer{
   padding: 1rem;
 }
 
+.projectPage{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.ph3{
+  margin: 3rem;
+}
+
 @media(max-width: 800px){
   /**{border: solid white 1px;}*/
 
@@ -216,6 +225,7 @@ footer{
   }
   .pic1, .pic2, .pic3, .pic4, .pic5, .pic6{
   }
+
   .row1, .row2{
     display: flex;
     flex-direction: column;
@@ -238,3 +248,4 @@ footer{
 
 
 }
+

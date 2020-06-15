@@ -139,10 +139,10 @@ height:6vh; /* Is moving the h1 tag up and down*/
 
 
   .container {
-    border: 1px solid black;
-    margin: 30px ;
-    margin-top: 0px;
-    height: 200px;
+    border: .1rem solid black;
+    margin: 0vh 0vw;
+    width:100%;
+    height:100%;
     background: linear-gradient(
       to bottom, 
       #11e1f0d2 5%, 
@@ -155,38 +155,240 @@ height:6vh; /* Is moving the h1 tag up and down*/
   }
   /* raindbow background square*/
   .container div {
-    height: 155px;
-    width: 150px;
+    padding:.3rem;
+    margin:.5rem;
+    height: 15vh;
+    width: 70vw;
   }
 
 
-  body > div.container{
-    display:flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items:center;
-  }
-  /* Button bars area*/
-  body > div.container.container-1 {
-    width:100%;
-    height:20%;
-  }
-  /* h1s area*/
-  body > div.container.container-1 > div#blank {
-    width:100%;
-    height:20%;
-  }
-  /* Makes space between name and button bar*/
- body > div.container.container-1 > div#blank > h1.hr{
- 
-  margin:.5rem .5rem .5rem .5rem;
-  font-size:2rem;
-  
-  }
+        body > div.container{
+          display:flex;
+          flex-direction:column;
+          justify-content: center;
+          align-items:center;
+        }
+        /* Button bars area*/
+        body > div.container.container-1 {
+          width:100%;
+          height:20%;
+        }
+        /* h1s area*/
+        body > div.container.container-1 > div#blank {
+          width:100%;
+          height:20%;
+        }
+        /* Makes space between name and button bar*/
+      body > div.container.container-1 > div#blank > h1.hr{
+      
+        margin:.5rem .5rem .5rem 2.5rem;
+        font-size:4.5rem;
+        
+        }
 
-}
+      /*Defaults on the outside*/
+
+        .container-1 {
+          display:flex;
+          flex-direction:row;
+          justify-content: center;
+          align-items:center;
+        }
+
+
+        
+        
+        .item-1 {
+          font-size: 4rem;
+            text-align: center;
+            background: linear-gradient(
+              to bottom, 
+              #3abfe7 0%, 
+              #cf2365 50%, 
+              #c92096 50%, 
+              #b6701e 100%
+            );
+        }
+        
+        html > body> div.container.container-1 > div.item-1 button:hover{
+          height:40vh;
+          width: 40vw;
+          background: linear-gradient(
+                to bottom, 
+                #87f10cd2 5%, 
+              #05f805 50%, 
+              #0ddb0d 50%, 
+              #0aec83 100%
+              );
+          
+        }
+        
+        
+        /* the actual button */
+        
+        html > body> div.container.container-1 > div.item-1 button{
+          height:80%;
+          width: 80%;
+            background: linear-gradient(
+                  to bottom, 
+                  #d3d33e 0%, 
+                  #af671f 50%, 
+                  #b6701e 50%, 
+                  #b6701e 100%
+                );
+
+            
+          }
+        
+        
+        
+          
+
+
+
+
+
+
+
+}/* End @media phone 600*/
     /* End breakpoints */
 
+    @media screen and (max-width: 616px){
+      body > div.container.container-1 > div#blank > h1.hr{
+      
+        margin:.5rem .5rem .5rem 2.5rem;
+        font-size:4.5rem;
+        text-align: center;
+        
+        }
+      
+
+    }
+
+
+
+
+
+    /* The navigation settings for Tablets & Phones Diagonal all the way down to a smaller size */
+@media screen and (max-width: 500px){
+
+
+  .container {
+    border: .1rem solid black;
+    margin: 0vh 0vw;
+    width:100%;
+    height:100%;
+    background: linear-gradient(
+      to bottom, 
+      #11e1f0d2 5%, 
+      #cf4523 50%, 
+      #dd1922 50%, 
+      #ad0d1a 100%
+    );
+    
+  
+  }
+  /* raindbow background square*/
+  .container div {
+    padding:1.3rem;
+    margin:.5rem;
+    height: 15vh;
+    width: 70vw;
+  }
+
+
+        body > div.container{
+          display:flex;
+          flex-direction:column;
+          justify-content: center;
+          align-items:center;
+        }
+        /* Button bars area*/
+        body > div.container.container-1 {
+          width:100%;
+          height:20%;
+        }
+        /* h1s area*/
+        body > div.container.container-1 > div#blank {
+          width:100%;
+          height:20%;
+        }
+        /* Makes space between name and button bar*/
+      body > div.container.container-1 > div#blank > h1.hr{
+      
+        margin:.5rem .5rem .5rem 2.5rem;
+        font-size:4.5rem;
+        
+        }
+
+      /*Defaults on the outside*/
+
+        .container-1 {
+          display:flex;
+          flex-direction:row;
+          justify-content: center;
+          align-items:center;
+        }
+
+
+        
+        
+        .item-1 {
+          font-size: 4rem;
+            text-align: center;
+            background: linear-gradient(
+              to bottom, 
+              #3abfe7 0%, 
+              #cf2365 50%, 
+              #c92096 50%, 
+              #b6701e 100%
+            );
+        }
+        
+        html > body> div.container.container-1 > div.item-1 button:hover{
+          height:50px;
+          width:100px;
+          background: linear-gradient(
+                to bottom, 
+                #87f10cd2 5%, 
+              #05f805 50%, 
+              #0ddb0d 50%, 
+              #0aec83 100%
+              );
+            color:white;
+              
+          font-size: medium;
+        }
+        
+        
+        /* the actual button */
+        
+        div.item-1 button{
+            height:50px;
+            width:100px;
+            background: linear-gradient(
+                  to bottom, 
+                  #d3d33e 0%, 
+                  #af671f 50%, 
+                  #b6701e 50%, 
+                  #b6701e 100%
+                );
+            font-size: x-large;
+            
+          }
+        
+        
+        
+          
+
+
+
+
+
+
+
+}/* End @media phone 500*/
+    /* End breakpoints */
 
 
     

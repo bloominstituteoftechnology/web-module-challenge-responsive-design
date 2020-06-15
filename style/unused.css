@@ -1,0 +1,75 @@
+ /* unused */
+
+ .containerA{
+    background: linear-gradient(
+      to right, 
+      #f8f8f7 0%, 
+      #f8f7f6 50%, 
+      #b6701e 50%, 
+      #b6701e 100%
+    );
+    border: 1px solid black;
+    margin: 30px 0;
+    height: 200px;
+
+  }
+
+
+
+  .item-4 {
+    font-size: 4rem;
+      text-align: center;
+    background-color: darkgray;
+  }
+  
+  
+  .container-3 {
+    display:flex;
+  
+    flex-direction: column;
+    justify-content: space-evenly;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+    
+  }
+  
+  
+  .container-4 {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  
+  .container-5 {
+    display:flex;
+    flex-direction:row;
+    align-items:flex-end;
+  }
+
+
+
+
+
+  .container .foot{
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: space-evenly;
+  }
+
+
+
+  .container1 .foot{
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: space-evenly;
+  }
+  
+    .foot{
+      background-color: bisque;
+      width: 80px;
+      height: 50px;
+    }

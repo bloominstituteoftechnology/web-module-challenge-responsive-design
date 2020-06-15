@@ -134,7 +134,7 @@ height:6vh; /* Is moving the h1 tag up and down*/
   }
 
 }
-/* The navigation settings for Tablets & Phones*/
+/* The navigation settings for Tablets & Phones */
 @media screen and (max-width: 660px){
 
 
@@ -150,7 +150,7 @@ height:6vh; /* Is moving the h1 tag up and down*/
   }
 
 }
-    
+    /* End breakpoints */
 .container-1 {
   display:flex;
   flex-direction:row;

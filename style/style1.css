@@ -210,9 +210,9 @@ height:6vh; /* Is moving the h1 tag up and down*/
             );
         }
         
-        html > body> div.container.container-1 > div.item-1 button:hover{
-          height:40vh;
-          width: 40vw;
+        html > body> div.container.container-1 > div.item-1 > button.btng:hover{
+          height:85%;
+          width: 85%;
           background: linear-gradient(
                 to bottom, 
                 #87f10cd2 5%, 
@@ -236,18 +236,24 @@ height:6vh; /* Is moving the h1 tag up and down*/
                   #b6701e 50%, 
                   #b6701e 100%
                 );
-
-            
           }
+
+          html > body> div.container.container-1 > div.item-1 button > a{
+            height:100%;
+            width: 100%;
+            font-size:3rem;
+              background: linear-gradient(
+                    to bottom, 
+                    #d3d33e 0%, 
+                    #af671f 50%, 
+                    #b6701e 50%, 
+                    #b6701e 100%
+                  );
+  
+              
+            }
         
         
-        
-          
-
-
-
-
-
 
 
 }/* End @media phone 600*/
@@ -270,7 +276,8 @@ height:6vh; /* Is moving the h1 tag up and down*/
 
 
     /* The navigation settings for Tablets & Phones Diagonal all the way down to a smaller size */
-@media screen and (max-width: 500px){
+/* 500px X 490px*/
+    @media screen and (max-width: 500px){
 
 
   .container {
@@ -288,12 +295,24 @@ height:6vh; /* Is moving the h1 tag up and down*/
     
   
   }
+}
+
+  @media screen and (max-height: 490px){
+
+    /* Makes space between name and button bar*/
+   html> body > div.container.container-1 > div#blank > h1.hr{
+      
+      margin:.5rem .5rem .5rem 2.5rem;
+      font-size:2.5rem;
+      
+
+  }
   /* raindbow background square*/
   .container div {
-    padding:1.3rem;
+    padding:.3rem;
     margin:.5rem;
-    height: 15vh;
-    width: 70vw;
+    height: 30vh;
+    width: 55vw;
   }
 
 
@@ -377,14 +396,81 @@ height:6vh; /* Is moving the h1 tag up and down*/
             
           }
         
-        
-        
+/* Begin 260 px height in 400px height */
+        @media screen and (max-height: 260px){
+           /* Makes space between name and button bar*/
+   html> body > div.container.container-1 > div#blank > h1.hr{
+      
+    margin:.5rem .5rem .5rem 2.5rem;
+    font-size:2rem;
+    
+
+}
+ 
+ /* raindbow background square*/
+ .container div {
+  padding:.1rem;
+  margin:.3rem;
+  height: 60vh;
+  width: 55vw;
+}
+
+
+      
+      
+      
+      
+      
+      html > body> div.container.container-1 > div.item-1 button:hover{
+        height:50px;
+        width:100px;
+        background: linear-gradient(
+              to bottom, 
+              #87f10cd2 5%, 
+            #05f805 50%, 
+            #0ddb0d 50%, 
+            #0aec83 100%
+            );
+          color:white;
+            
+        font-size: medium;
+      }
+      
+      
+      /* the actual button */
+      
+      html > body> div.container.container-1 > div.item-1 > button{
+          height:4rem;
+          width:11rem;
+          background: linear-gradient(
+                to bottom, 
+                #d3d33e 0%, 
+                #af671f 50%, 
+                #b6701e 50%, 
+                #b6701e 100%
+              );
+
           
+        }
 
 
+        html > body> div.container.container-1 > div.item-1 > button > a{
+          height:100%;
+          width: 100%;
+          font-size:2rem;
+            background: linear-gradient(
+                  to bottom, 
+                  #d3d33e 0%, 
+                  #af671f 50%, 
+                  #b6701e 50%, 
+                  #b6701e 100%
+                );
+
+            
+          }
 
 
-
+} /* End 260px height*/
 
 
 }/* End @media phone 500*/

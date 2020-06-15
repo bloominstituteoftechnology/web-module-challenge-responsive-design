@@ -1,6 +1,6 @@
 /* Global */
 a {
-  color:black;
+  color:white;
   text-decoration: none;
 }
 a:visited{
@@ -22,7 +22,8 @@ div > h1{
     
     display:block;
     box-sizing: border-box;
-    
+    text-align:left;
+    font-size:3rem;
 /*     background: -webkit-linear-gradient(rgb(145, 26, 168), rgb(32, 20, 206));
 -webkit-background-clip: text;
 background-clip: border-box;
@@ -51,7 +52,7 @@ background-clip: border-box;
 
 
 
-
+/* Ends global*/
 /*Top part of the page */
 marquee{
     
@@ -75,30 +76,84 @@ marquee{
   
 
 }
-
+/* raindbow background square*/
 .container div {
   height: 55px;
   width: 150px;
 }
-.container .item-2 {
-  border: 2px solid black;
-  height: 255px;
-  width: 150px;
-}
 
-.container .item-3 {
-  border: 2px solid black;
-  height: 150px;
-  width: 180px;
+
+@media screen and (min-width: 1200px){
+
+
+  /* Makes space between name and button bar*/
+  div.container.container-1 > div#blank{
+        
+ /* 
+  margin:.7rem .4rem 0rem .7rem;
+width:100%;
+height:6vh;  Is moving the h1 tag up and down*/
   
+margin:.7rem .4rem 0rem .7rem;
+width:100%;
+height:6vh; /* Is moving the h1 tag up and down*/
+}
 }
 
-/*End container */
+/* The navigation settings for Desktop*/
+@media screen and (max-width: 1200px){
 
 
-      
+  /* Makes space between name and button bar*/
+  div.container.container-1 > div#blank{
+          
+    display:flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items:center;
+
+
+  margin:3.5rem 2.5rem 0rem 0rem;
+  }
+
+}
+
+/* The navigation settings for Laptops*/
+@media screen and (max-width: 930px){
+
+
+  /* Makes space between name and button bar*/
+ body > div.container.container-1 > div#blank > h1.hr{
+          
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items:center;
+  margin:.5rem .5rem .5rem .5rem;
+  font-size:2rem;
+  }
+
+}
+/* The navigation settings for Tablets & Phones*/
+@media screen and (max-width: 660px){
+
+
+  /* Makes space between name and button bar*/
+ body > div.container.container-1 > div#blank > h1.hr{
+          
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items:center;
+  margin:.5rem .5rem .5rem .5rem;
+  font-size:2rem;
+  }
+
+}
+    
 .container-1 {
   display:flex;
+  flex-direction:row;
   justify-content: center;
   align-items:center;
 }
@@ -132,7 +187,7 @@ html > body> div.container.container-1 > div.item-1 button:hover{
 }
 
 
-
+/* the actual button */
 
 div.item-1 button{
     height:50px;
@@ -169,12 +224,6 @@ div.item-1 button{
   
 /* After h2*/
 
-
-      .container1 div {
-        height: 55px;
-        width: 150px;
-      }
-  
       
 
       .container1 .item-2 {
@@ -182,6 +231,20 @@ div.item-1 button{
         height: 255px;
         width: 150px;
       }
+
+      .container .item-2 {
+        border: 2px solid black;
+        height: 255px;
+        width: 150px;
+      }
+      
+      .container .item-3 {
+        border: 2px solid black;
+        height: 150px;
+        width: 180px;
+        
+      }
+      
       
       .container1 .item-3 {
         border: 2px solid black;

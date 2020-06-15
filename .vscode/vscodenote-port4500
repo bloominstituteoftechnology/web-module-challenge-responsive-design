@@ -1,3 +1,0 @@
-it was at port 4500 probly dont matter.
-Says use either or for custom browser settings. 
-"liveServer.settings.AdvanceCustomBrowserCmdLine": "firefox --incognito --remote-debugging-port=9222",

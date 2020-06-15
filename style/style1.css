@@ -134,23 +134,62 @@ height:6vh; /* Is moving the h1 tag up and down*/
   }
 
 }
-/* The navigation settings for Tablets & Phones */
+/* The navigation settings for Tablets & Phones Diagonal all the way down */
 @media screen and (max-width: 660px){
 
 
+  .container {
+    border: 1px solid black;
+    margin: 30px ;
+    margin-top: 0px;
+    height: 200px;
+    background: linear-gradient(
+      to bottom, 
+      #11e1f0d2 5%, 
+      #cf4523 50%, 
+      #dd1922 50%, 
+      #ad0d1a 100%
+    );
+    
+  
+  }
+  /* raindbow background square*/
+  .container div {
+    height: 155px;
+    width: 150px;
+  }
+
+
+  body > div.container{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+  }
+  /* Button bars area*/
+  body > div.container.container-1 {
+    width:100%;
+    height:20%;
+  }
+  /* h1s area*/
+  body > div.container.container-1 > div#blank {
+    width:100%;
+    height:20%;
+  }
   /* Makes space between name and button bar*/
  body > div.container.container-1 > div#blank > h1.hr{
-          
-  display:flex;
-  flex-direction:row;
-  justify-content: center;
-  align-items:center;
+ 
   margin:.5rem .5rem .5rem .5rem;
   font-size:2rem;
+  
   }
 
 }
     /* End breakpoints */
+
+
+
+    
 .container-1 {
   display:flex;
   flex-direction:row;

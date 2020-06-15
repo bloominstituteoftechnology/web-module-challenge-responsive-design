@@ -1,12 +1,12 @@
 /* Global */
 a {
-  color:white;
   text-decoration: none;
 }
 a:visited{
   color:black;
 text-decoration: none;
 }
+/* The marque*/
 body > #title{
     display:block;
   box-sizing: border-box;
@@ -16,6 +16,11 @@ body > #title{
 
  
    
+}
+marquee{
+    
+  font-size:8rem;
+  background-color: blue;
 }
 
 div > h1{
@@ -42,10 +47,10 @@ background-clip: border-box;
     }
     p{
       text-align: center;
-      margin: 40px;
+      margin: 2rem; 
     }
-  div  img{
-    margin:30px 90px 30px 90;
+  div img{
+    margin:.1rem .2rem .1rem .2rem;
    
 
   }
@@ -54,18 +59,15 @@ background-clip: border-box;
 
 /* Ends global*/
 /*Top part of the page */
-marquee{
-    
-    font-size:8rem;
-    background-color: blue;
-}
+
 
 
 .container {
-  border: 1px solid black;
-  margin: 30px ;
-  margin-top: 0px;
-  height: 200px;
+  box-shadow: .1rem .1rem  .3rem  blue;
+  border: .06rem solid black;
+  margin: 1.4rem ;
+  margin-top: 0rem;
+  height: 14rem;
   background: linear-gradient(
     to bottom, 
     #11e1f0d2 5%, 
@@ -78,8 +80,8 @@ marquee{
 }
 /* raindbow background square*/
 .container div {
-  height: 55px;
-  width: 150px;
+  height: 4rem;
+  width: 9rem; /* originally 200 px width & 40px height*/
 }
 
 
@@ -138,6 +140,8 @@ height:6vh; /* Is moving the h1 tag up and down*/
 @media screen and (max-width: 660px){
 
 
+
+  
   .container {
     border: .1rem solid black;
     margin: 0vh 0vw;

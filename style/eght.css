@@ -1,0 +1,211 @@
+/* As per the assignments breakpoint and design in option 1 */
+@media (min-width: 800px){
+
+    @media(max-height: 500px){
+
+    
+/* raindbow background square*/
+.container div {
+  padding:.3rem;
+  margin:.5rem;
+  height: 20%;
+  width: 25%;
+}
+
+
+      body > div.container{
+     width:100%;
+     height: 100%;
+      }
+      /* Button bars area*/
+      body > div.container.container-1 {
+        width:100%;
+        height:20%;
+      }
+      /* h1s area*/
+      body > div.container.container-1 > div#blank {
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items:center;
+        width:100%;
+        height:20%;
+      }
+      /* Makes space between name and button bar*/
+    body > div.container.container-1 > div#blank > h1.hr{
+     
+      margin:.5rem .5rem .5rem 2.5rem;
+      font-size:4.5rem;
+      
+      }
+
+    /*Defaults on the outside*/
+
+      .container-1 {
+        display:flex;
+        flex-direction:row;
+        justify-content: center;
+        align-items:center;
+      }
+
+
+      
+      
+      .item-1 {
+          text-align: center;
+          background: linear-gradient(
+            to bottom, 
+            #3abfe7 0%, 
+            #cf2365 50%, 
+            #c92096 50%, 
+            #b6701e 100%
+          );
+      }
+      
+      html > body > div.container.container-1 > div.item-1 button:hover{
+        height:50px;
+        width:100px;
+        background: linear-gradient(
+              to bottom, 
+              #87f10cd2 5%, 
+            #05f805 50%, 
+            #0ddb0d 50%, 
+            #0aec83 100%
+            );
+
+      }
+      
+      
+      /* the actual button */
+      
+      div.item-1 button{
+          height:50px;
+          width:100px;
+          background: linear-gradient(
+                to bottom, 
+                #d3d33e 0%, 
+                #af671f 50%, 
+                #b6701e 50%, 
+                #b6701e 100%
+              );
+          
+        }
+
+    html > body > div.container.container-1 {
+      display:flex;
+      flex-direction: row;
+    }
+
+
+    } /* end 500px */
+
+} /* end 800 px*/
+
+
+
+
+/* As per the assignments breakpoint and design in option 1 */
+@media (min-width: 800px){
+
+  @media(max-height: 500px){
+
+     /* Makes space between name and button bar*/
+ html> body > div.container.container-1 > div#blank > h1.hr{
+    
+  margin:.5rem .5rem .5rem 2.5rem;
+  font-size:2.5rem;
+
+}
+/* raindbow background square*/
+.container div {
+padding:.3rem;
+margin:.5rem;
+height: 20%;
+width: 25%;
+}
+
+
+    body > div.container{
+      display:flex;
+      flex-direction:column;
+      justify-content: center;
+      align-items:center;
+    }
+    /* Button bars area*/
+    body > div.container.container-1 {
+      width:100%;
+      height:20%;
+    }
+    /* h1s area*/
+    body > div.container.container-1 > div#blank {
+      width:100%;
+      height:20%;
+    }
+    /* Makes space between name and button bar*/
+  body > div.container.container-1 > div#blank > h1.hr{
+  
+    margin:.5rem .5rem .5rem 2.5rem;
+    font-size:4.5rem;
+    
+    }
+
+  /*Defaults on the outside*/
+
+    .container-1 {
+      display:flex;
+      flex-direction:row;
+      justify-content: center;
+      align-items:center;
+    }
+
+
+    
+    
+    .item-1 {
+        text-align: center;
+        background: linear-gradient(
+          to bottom, 
+          #3abfe7 0%, 
+          #cf2365 50%, 
+          #c92096 50%, 
+          #b6701e 100%
+        );
+    }
+    
+    html > body > div.container.container-1 > div.item-1 button:hover{
+      height:50px;
+      width:100px;
+      background: linear-gradient(
+            to bottom, 
+            #87f10cd2 5%, 
+          #05f805 50%, 
+          #0ddb0d 50%, 
+          #0aec83 100%
+          );
+
+    }
+    
+    
+    /* the actual button */
+    
+    div.item-1 button{
+        height:50px;
+        width:100px;
+        background: linear-gradient(
+              to bottom, 
+              #d3d33e 0%, 
+              #af671f 50%, 
+              #b6701e 50%, 
+              #b6701e 100%
+            );
+        
+      }
+
+  div.container.container-1 > div.item-1{
+    
+  }
+
+
+  } /* end 500px */
+
+} /* end 800 px*/

@@ -10,9 +10,29 @@ In this module challenge you will continue working on your portfolio website to 
 
 - describe the differences in fixed, fluid, adaptive, and responsive layouts
 
+Fixed is when a element is set to an amount of pixels or units and never changes. It is not popular and will leave a scroll bar on smaller devices. It may not develop correctly with fluid changes either since its based off pixels and not a percentage type of unit. 
+
+Fluid is when the elements are set to a percentage of the screen size so when the browser size change so do the elements. This layout is much more flexible and managable in devlopment.  
+
+
+Adaptive is where layouts are in various fixed premade versions and each version is used depending on the screen size. This is good for low sever loads since it only sends what the device needs and not everything else that it does not need to load up. For projects that are going to need optimal server load speeds, this is a great choice to insure the end-user is getting the intended experience .    
+
+
+Responsive design is based off breakpoints depending on the browser size. Each breakpoint will activate new responses to the elements style once the browser size pixles increase or decrease on each @ media quarie condition. This can be used to achieve a fluid experience that does not depend on a fixed layout Like how Adapative layouts do.  
+
+
+The major differences between these four layouts come down to wheither each pixle is set to a fixed or fluid layout. Fluid layouts seem best for designs where the device size is unknown and whether or not it is known all user get the same experience regardless of device size. While with a Fixed or adaptive layout the pixel size is set and it will not respond to radical testing or changes easy.With Adapative you get the optimal server load on the cache at the minimum while with fluid or fixed layouts everything is get loaded to the client no matter if they are ever going to need it or not. 
+
+
 - implement media queries in a project.
 
+
+
+
+
 - describe how using scalable units for font sizes impacts accessibility and why designing accessible web pages is important
+
+Its very important that accessible web pages can be adjusted depending on the reader. Some people need big words and other decrease the size to see better. Depending on a person's browser settings a font size may increase larger or smaller than intended so it is good to base the font size off a 62.5% because this will make a usable unit of measurment.  
 
 
 ## Introduction

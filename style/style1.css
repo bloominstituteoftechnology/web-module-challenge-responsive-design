@@ -574,6 +574,7 @@ height:6vh; /* Is moving the h1 tag up and down*/
 html > body > div.smalls{
   width:25vw;
   height: 40vh;
+  margin: .4vh 4vw;
 
  
 }
@@ -587,19 +588,48 @@ html > body > div#i{
   display:flex;
   flex-direction:row-reverse;
   align-items: center;
+
 }
 
 html > body > div#i.smalls.h > p.smalls.hh{
   display:flex;
   flex-direction:column;
- 
+  justify-content: center;
 
  
 }
+html > body > div#i.smalls.h > div.sent{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: center;
+  
 
+ 
+}
 html > body > div.smalls.h > img{
   width: 40vw;
   height:40vh;
+  margin: .4vh 2vw;
+}
+
+/* just center the container*/
+html > body > div.container1.container-2{
+  display:flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+html > body > div.container1 > div{
+  margin:.4rem;
+  width: 50vw;
+  height: 120vh;
+}
+html > body > div.container1 > div.item-2{
+ display:flex;
+ align-items: center;
+ width:40%;
+ height:100%;
 }
 
 

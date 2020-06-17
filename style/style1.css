@@ -626,12 +626,16 @@ html > body > div.container1 > div{
   height: 120vh;
 }
 html > body > div.container1 > div.item-2{
- display:flex;
- align-items: center;
- width:40%;
+
+ width:70%;
  height:100%;
 }
-
+html > body > div.container1 > div.item-2.r2{
+  display:flex;
+  align-items:center;
+ width:70%;
+ height:100%;
+}
 
 
 

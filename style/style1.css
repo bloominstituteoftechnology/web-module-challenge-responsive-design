@@ -572,9 +572,10 @@ height:6vh; /* Is moving the h1 tag up and down*/
 /* Next breakpoint for nav 1200px 300px */
 
 html > body > div.smalls{
-  display:flex;
-  flex-direction:row-reverse;
-  justify-content: space-evenly;
+  width:25vw;
+  height: 40vh;
+
+ 
 }
 html > body > div.smalls.h{
 
@@ -584,14 +585,15 @@ html > body > div.smalls.h{
 }
 html > body > div#i{
   display:flex;
-  flex-direction:column;
-
+  flex-direction:row-reverse;
+  align-items: center;
 }
 
-html > body > div#i.smalls.h > .smalls.hh{
-  width:25vw;
-  height: 30vh;
-  background-color:blue;
+html > body > div#i.smalls.h > p.smalls.hh{
+  display:flex;
+  flex-direction:column;
+ 
+
  
 }
 

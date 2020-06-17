@@ -74,12 +74,12 @@ a:hover {
     
   }
   
-  /* img {
+  img {
     width: 25%;
     padding: 1%;
     margin: 20%;
     display: flex;
-  } */
+  }
   .imageText {
     display: flex;
     width: 600px; 
@@ -127,7 +127,7 @@ a:hover {
     padding: 5px;
   }
 
-  @media only screen and (max-width: 800px){
+  @media (max-width: 800px){
 p {
     width: 60%;
     background-color: pink;
@@ -136,8 +136,9 @@ p {
   } 
 }
 
-@media only screen and (max-width: 450px){
+@media (max-width: 500px){
 img { 
      border: 2px solid green;
+     margin: auto;
 }
 }

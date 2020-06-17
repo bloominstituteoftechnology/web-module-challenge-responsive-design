@@ -624,6 +624,7 @@ html > body > div.container1 > div{
   margin:.4rem;
   width: 50vw;
   height: 120vh;
+  padding:.1rem;
 }
 html > body > div.container1 > div.item-2{
 

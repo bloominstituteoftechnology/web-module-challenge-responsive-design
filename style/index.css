@@ -177,21 +177,44 @@ footer > nav{
 }
 
 
-/* Tablets and smaller */
+
+
+
+/**************
+        ***
+         Tablets and smaller 
+         ***************************/
 @media(max-width:800px){
 
-/* Add CSS styling here */
+/* Add Mobile  styling here */
+
+
+header{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:98%;
+    height: 100%;
+    background: rgb(164,170,175);
+background: linear-gradient(5deg, rgba(164,170,175,1) 
+0%, rgba(162,161,167,1) 78%, rgba(5,4,77,1) 99%,
+ rgb(98, 131, 138) 100%, rgba(121,28,9,0.9684222565979517) 100%);
+
+    margin:1px;
+}
+
 
 nav{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column-reverse;
     height: 100%;
 }
 .nav{
     margin:11px;
     border: 2px solid black;
-    width:94vw;
-    height:20vh;
+    width:94%;
+    height:100%;
     background: rgb(5,4,77);
 background: linear-gradient(90deg, rgba(5,4,77,1) 1%, 
 rgba(9,9,121,1) 21%, 
@@ -202,20 +225,17 @@ rgba(0,212,255,1) 53%, rgba(5,103,183,1) 65%,
 h1{
     text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0em blue;
     color: white;
-    font: 2.5em Georgia, serif;
+    font: 3.5em Georgia, serif;
 }
 h2{
     text-shadow: 1px 1px 2px black, 0 0 1em blue, 0em 0 0em blue;
     color: white;
-    font: 1.5em Georgia, serif;
-    margin-left: 12px;
-   display: flex;
-    align-items: center; 
+    font: 2.5em Georgia, serif;
+    margin-left: 2px;
 }
 h2.navK{
-    text-align: left;
+    text-align: center;
     width:100%;
-    justify-self: flex-start;
 }
 nav > button.navK{
     
@@ -237,36 +257,8 @@ button.navK:hover{
     font-size:1rem Arial, serif;
     margin:12px;
 }
-header{
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width:98%;
-    height: 80vh;
-    background: rgb(164,170,175);
-background: linear-gradient(5deg, rgba(164,170,175,1) 
-0%, rgba(162,161,167,1) 78%, rgba(5,4,77,1) 99%,
- rgba(0,212,255,1) 100%, rgba(121,28,9,0.9684222565979517) 100%);
 
-    margin:1px;
-}
-header > div{
-    display: flex;
-    text-align:center;
-    flex-direction: column;
-    justify-content: center;
-    width:88%;
-    height: 36vh;
-    background: rgb(5,4,77);
-background: linear-gradient(5deg, rgba(5,4,77,1) 1%,
- rgba(121,28,9,0.9684222565979517) 52%,
- rgba(5,103,183,1) 88%, rgba(0,212,255,1) 97%,
-  rgba(2,0,36,1) 100%);
 
-    margin:10px;
-
-}
 a{
     color:inherit;
     text-decoration: none;
@@ -279,6 +271,26 @@ a:after{
     color:inherit;
     text-decoration: none;
 }
+
+/* The bottom part of header */
+
+header > div{
+    display: flex;
+    text-align:center;
+    flex-direction: column;
+    justify-content: center;
+    width:88%;
+    height: 100%;
+    background: rgb(5,4,77);
+background: linear-gradient(5deg, rgba(5,4,77,1) 1%,
+ rgba(121,28,9,0.9684222565979517) 52%,
+ rgba(5,103,183,1) 88%, rgba(0,212,255,1) 97%,
+  rgba(2,0,36,1) 100%);
+
+    margin:10px;
+
+}
+
 button.K:hover{
     font-weight: 600;
     color:black;
@@ -299,22 +311,7 @@ background: linear-gradient(5deg, rgba(203,118,38,1) 0%,
     height: 6rem;
 }
 
-.projCon{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-}
 
-.projectBoxes{
-    margin:1px;
-    background-color: antiquewhite;
-    width:12rem;
-    height: 14rem;
-}
-footer > nav{
-    display: flex;
-    justify-content: center;
-}
 
 
 
@@ -339,6 +336,14 @@ section{
     background-color: grey;
     width:16rem;
     height: 24rem;
+}
+
+
+
+/* The footer*/
+footer > nav{
+    display: flex;
+    justify-content: center;
 }
 
 

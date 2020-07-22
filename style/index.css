@@ -550,12 +550,12 @@ footer > nav{
     
     
     header{
-        display: inline-flex;
+        display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         width:98%;
-        height: 100%;
+        height: 200vh;
         background: rgb(164,170,175);
     background: linear-gradient(5deg, rgba(164,170,175,1) 
     0%, rgba(162,161,167,1) 78%, rgba(5,4,77,1) 99%,
@@ -636,8 +636,7 @@ footer > nav{
     
     /* The bottom part of header */
     
-
-  body >  header > div{
+   html > body > header > div#bHead{
         display: flex;
         text-align:center;
         flex-direction: column;
@@ -654,7 +653,8 @@ footer > nav{
     
     }
 
-  body >  header > div.bHead{
+
+ html > body >  header > div.bHead{
         display: flex;
         text-align:center;
         flex-direction: column;

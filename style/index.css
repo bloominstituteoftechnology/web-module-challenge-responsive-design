@@ -241,20 +241,22 @@ nav > button.navK{
     
     justify-self: flex-end;
 }
+
 button.navK{
     box-shadow: 2px 3px 8px red, 10em 10em 11em red ;
     background-color: black;
     text-shadow: 1px 1px 12px blue, 10em 10em 11em red, 0em 0em 0em blue;
     color: orange;
-    font-size:1rem Arial, serif;
+    font-size:3rem;
+    font-style:Arial, serif;
     margin:12px;
 }
 button.navK:hover{
     box-shadow: 2px 3px 8px red, 10em 10em 11em red ;
     background-color: green;
     text-shadow: 1px 1px 12px blue, 10em 10em 11em red, 0em 0em 0em blue;
-    color: orange;
-    font-size:1rem Arial, serif;
+    color: red;
+    font-size:3rem;
     margin:12px;
 }
 
@@ -292,12 +294,14 @@ background: linear-gradient(5deg, rgba(5,4,77,1) 1%,
 }
 
 button.K:hover{
+    font-size:2rem;
     font-weight: 600;
-    color:black;
+    color:red;
     background: green;
 
 }
 button.K{
+    font-size:2rem;
     font-weight: 600;
     color:black;
     background: rgb(203,118,38);
@@ -307,7 +311,7 @@ background: linear-gradient(5deg, rgba(203,118,38,1) 0%,
 .K{
     color:black;
     align-self:center;
-    width:5rem;
+    width:60%;
     height: 6rem;
 }
 

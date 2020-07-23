@@ -555,7 +555,7 @@ footer > nav{
         align-items: center;
         justify-content: center;
         width:98%;
-        height: 200vh;
+        height: 70em;
         background: rgb(164,170,175);
     background: linear-gradient(5deg, rgba(164,170,175,1) 
     0%, rgba(162,161,167,1) 78%, rgba(5,4,77,1) 99%,
@@ -635,26 +635,20 @@ footer > nav{
     }
     
     /* The bottom part of header */
-    
-   html > body > header > div#bHead{
-        display: flex;
+    /* Todo Fade in and out with different project photos */
+    body > header > div#bHead{
+        display: inline-flex;
         text-align:center;
         flex-direction: column;
         justify-content: center;
+        
         width:88%;
         height: 100%;
-        background: rgb(5,4,77);
-    background: linear-gradient(5deg, rgba(5,4,77,1) 1%,
-     rgba(121,28,9,0.9684222565979517) 52%,
-     rgba(5,103,183,1) 88%, rgba(0,212,255,1) 97%,
-      rgba(2,0,36,1) 100%);
-    
-        margin:10px;
-    
+        background-image: url('/assets/proj1.png');
     }
 
 
- html > body >  header > div.bHead{
+  body >  header > div.bHead{
         display: flex;
         text-align:center;
         flex-direction: column;

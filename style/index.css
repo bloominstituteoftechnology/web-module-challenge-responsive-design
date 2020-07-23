@@ -637,13 +637,14 @@ footer > nav{
     /* The bottom part of header */
     /* Todo Fade in and out with different project photos */
     body > header > div#bHead{
-        display: inline-flex;
-        text-align:center;
-        flex-direction: column;
-        justify-content: center;
-        
-        width:88%;
-        height: 100%;
+        display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+        width: 90%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
         background-image: url('/assets/proj1.png');
     }
 
@@ -710,7 +711,7 @@ footer > nav{
     .projectBoxes{
         margin:1px;
         background-color: grey;
-        width:16rem;
+        width: 40%;
         height: 24rem;
     }
     

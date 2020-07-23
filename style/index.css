@@ -28,6 +28,10 @@ figure, hgroup, menu {
 /* Desktops */
 @media(min-width:800px){
     /* Add CSS styling here */
+    b{
+        font-size:2rem;
+        font-weight:700;
+    }
 
 nav{
     display: flex;
@@ -49,12 +53,12 @@ rgba(0,212,255,1) 53%, rgba(5,103,183,1) 65%,
 h1{
     text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0em blue;
     color: white;
-    font: 2.5em Georgia, serif;
+    font: 4.5rem Georgia, serif;
 }
 h2{
     text-shadow: 1px 1px 2px black, 0 0 1em blue, 0em 0 0em blue;
     color: white;
-    font: 1.5em Georgia, serif;
+    font: 3rem Georgia, serif;
     margin-left: 12px;
    display: flex;
     align-items: center; 
@@ -69,11 +73,13 @@ nav > button.navK{
     justify-self: flex-end;
 }
 button.navK{
+   
     box-shadow: 2px 3px 8px red, 10em 10em 11em red ;
     background-color: black;
     text-shadow: 1px 1px 12px blue, 10em 10em 11em red, 0em 0em 0em blue;
     color: orange;
-    font-size:1rem Arial, serif;
+    font-family:Arial, serif;
+    font-size:2rem;
     margin:12px;
 }
 button.navK:hover{
@@ -81,7 +87,8 @@ button.navK:hover{
     background-color: green;
     text-shadow: 1px 1px 12px blue, 10em 10em 11em red, 0em 0em 0em blue;
     color: orange;
-    font-size:1rem Arial, serif;
+    font-size:2rem;
+    font-family:Arial, serif; 
     margin:12px;
 }
 header{
@@ -133,6 +140,9 @@ button.K:hover{
 
 }
 button.K{
+    font-style:Arial, serif;
+    text-shadow: 1px 1px 12px blue, 10em 10em 11em black, 0em 0em 0em blue;
+    font-size:2rem;
     font-weight: 600;
     color:black;
     background: rgb(203,118,38);
@@ -142,7 +152,7 @@ background: linear-gradient(5deg, rgba(203,118,38,1) 0%,
 .K{
     color:black;
     align-self:center;
-    width:5rem;
+    width:15rem;
     height: 6rem;
 }
 
@@ -186,7 +196,10 @@ footer > nav{
     display: flex;
     justify-content: center;
 }
+footer > p{
 
+    visibility: hidden;
+}
 }
 
 
@@ -375,6 +388,10 @@ footer > nav{
     display: flex;
     justify-content: center;
 }
+footer > p{
+
+    visibility: hidden;
+}
 
 
 @media(max-height:500px){
@@ -559,6 +576,10 @@ footer > nav{
         justify-content: center;
     }
     
+    footer > p{
+
+        visibility: hidden;
+    }
     
     }
 
@@ -579,14 +600,27 @@ footer > nav{
 
 
 /*****
+** If text can't fit in the project description boxes 
+    look for grey or the background color and increase the box size
         Stretch 1366px X 768px
         min width 800 & max height 650 or 500
                 **********/
 
 @media(max-height:650px){
+    b{
+        text-justify: center;
+        text-align:center;
+        font-weight: 900;
+        font-size:1rem;
+    }
     @media(min-width:800px){
 
-
+       footer > p{
+           font-weight:700;
+           font-size:2rem;
+           text-align: center;
+           text-justify: center;
+       }
 
     /* Add Mobile  styling here */
     
@@ -633,11 +667,12 @@ footer > nav{
         text-shadow: 1px 1px 2px black, 0 0 1em blue, 0em 0 0em blue;
         color: white;
         font: 2.5em Georgia, serif;
-        margin-left: 2px;
+        margin-left: 40%;
     }
     h2.navK{
-        text-align: center;
         width:100%;
+        text-align: center;
+
     }
     nav > button.navK{
         
@@ -751,6 +786,7 @@ footer > nav{
         justify-content: center;
     }
     div.projectBoxes{
+        
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;

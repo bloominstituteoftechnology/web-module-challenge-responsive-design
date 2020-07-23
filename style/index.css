@@ -196,9 +196,14 @@ footer > nav{
     display: flex;
     justify-content: center;
 }
-footer > p{
-
-    visibility: hidden;
+/* Find out why visibilty hidden takes away all the other
+         like what you sees */
+html > body > footer > p.see{
+    color:black;
+    font-weight:700;
+    font-size:2rem;
+    text-align: center;
+    text-justify: center;
 }
 }
 
@@ -388,10 +393,7 @@ footer > nav{
     display: flex;
     justify-content: center;
 }
-footer > p{
 
-    visibility: hidden;
-}
 
 
 @media(max-height:500px){
@@ -576,15 +578,16 @@ footer > p{
         justify-content: center;
     }
     
-    footer > p{
-
-        visibility: hidden;
+    html > body > footer > p.see{
+       visibility: hidden;
     }
     
     }
 
 
-
+    html > body > footer > p.see{
+        visibility: hidden;
+     }
 
 
 }   /* End max-width 800px & max-height: 500px*/
@@ -607,6 +610,13 @@ footer > p{
                 **********/
 
 @media(max-height:650px){
+    html > body > footer > p.see{
+        color:black;
+        font-weight:700;
+        font-size:2rem;
+        text-align: center;
+        text-justify: center;
+    }
     b{
         text-justify: center;
         text-align:center;
@@ -615,7 +625,8 @@ footer > p{
     }
     @media(min-width:800px){
 
-       footer > p{
+       html > body > footer > p.see{
+           color:black;
            font-weight:700;
            font-size:2rem;
            text-align: center;

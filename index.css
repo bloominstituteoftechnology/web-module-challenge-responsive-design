@@ -1,0 +1,123 @@
+body{
+    display:flex;
+    flex-flow: column;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #5e17eb;
+
+}
+
+button{        
+    color:#5E17EB;
+    text-align: center;
+    font-weight: lighter;
+    font-family: fantasy;
+    border-color: #000000;
+    border-style: inset;
+    background-color: #ffffff;
+    box-shadow: 5px -5px 0px black;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    text-shadow: -5px -5px 6px black;
+    margin-bottom: 1em;
+    background-color: #ffffff69;
+    border-color: #ffffff;
+    border-style: inset;
+    border-width: 8px;
+    box-shadow: 8px -6px 5px;
+}
+
+h1{
+    display:flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Bangers';    
+    width: 70%;
+    padding: 0%;
+    margin-left: 15%;
+    padding-left: 0%;
+    letter-spacing: 4px;
+}
+
+#intro {
+
+    background-color: #ffffff69;
+    border-color: #ffffff;
+    border-style: inset;
+    border-width: 8px;
+}
+
+
+.me img{
+    
+    width: 70%;
+    padding: 0%;
+    margin-left: 15%;
+    padding-left: 0%;
+}
+
+#about{
+    display: flex;
+
+}
+
+#about p{
+    display: flex;
+    text-align: right;
+    color:white;
+}
+
+#pic-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff69;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    color:white;
+    text-align: center;
+    margin-top: 2rem;
+    box-shadow: 8px -6px 5px black;
+    border-style: inset;
+    border-color: #ffffff;
+    border-width: 8px;
+    }
+
+
+.row1, .row2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5em;
+    justify-content: space-evenly;
+    
+}
+
+
+.row1 img, .row2 img{
+    display: flex;
+    background-color: #ffffff69;
+    border-color: #ffffff;
+    border-style: inset;
+    border-width: 2%; 
+    max-width: 15%;
+    min-width: 15%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.foot a{
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+}
+
+@media(max-width: 800px){
+    
+}
+
+@media(max-width: 500px){
+    
+}

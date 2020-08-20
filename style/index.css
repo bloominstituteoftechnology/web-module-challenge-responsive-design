@@ -555,7 +555,7 @@ p{
       justify-content: center;
       align-content: center;
       text-align: center;
-      font-size: 300%;
+      font-size: 250%;
   }
   h2{
       font-family: 'Lemonada', cursive;
@@ -569,7 +569,7 @@ p{
       font-family: 'Lemonada', cursive;
       display: flex;
       justify-content: center;
-      font-size: 100%;
+      font-size: 75%;
       margin-bottom: 2%;
       align-content: center;
       text-align: center;
@@ -621,7 +621,7 @@ p{
       margin-top: 7%;
       margin-left: 4%;
       width: auto;
-      font-size: 100%;
+      font-size: 72%;
   }
   .menu{
       justify-content: center;

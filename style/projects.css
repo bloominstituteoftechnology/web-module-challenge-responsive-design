@@ -562,13 +562,13 @@ p{
       justify-content: center;
       align-content: center;
       text-align: center;
-      font-size: 150%;
+      font-size: 75%;
   }
   p{
       font-family: 'Lemonada', cursive;
       display: flex;
       justify-content: center;
-      font-size: 100%;
+      font-size: 75%;
       margin-bottom: 2%;
       align-content: center;
       text-align: center;
@@ -617,7 +617,7 @@ p{
       margin-top: 7%;
       margin-left: 4%;
       width: auto;
-      font-size: 100%;
+      font-size: 72%;
   }
   .menu{
     justify-content: center;

@@ -1,0 +1,407 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* my original code */
+
+html,
+body {
+    font-size: 62.5%;
+    font-family: 'Josefin Slab', serif;
+}
+
+body {
+    background-color: #201e21;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right top, #ed246a, #0996ed);
+    border-bottom: 3px solid #eee;
+}
+
+h1 {
+    font-size: 4.5rem;
+    margin: 1% 0% .5% 1%;
+    color: #eee;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-start;
+    margin: .5% 1%;
+    font-size: 2.6rem;
+}
+
+header nav a {
+    padding: .34%;
+    border: 1px solid #eee;
+    color: #eee;
+    background-color: #855bcf;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: #855bcf;
+    background-color: #eee;
+}
+
+#portrait {
+    width: 50%;
+    height: auto;
+    margin: 1%;
+    border-radius: 10%;
+}
+
+#name {
+    font-size: 4.2rem;
+    margin: 34% 0% 5% 0%;
+}
+
+#section1-5 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+}
+
+#section1-5 a {
+    font-size: 2.4rem;
+    padding: .5%;
+    color: #eee;
+    background-color: #0996ed;
+    text-decoration: none;
+}
+
+#section1-5 a:hover {
+    color: #eee;
+    background-color: #ed246a;
+    border: 1px solid #ed246a;
+}
+
+#info {
+    margin: 5% 0%;
+    font-size: 2.8rem;
+    text-align: left;
+}
+
+.section1 {
+    display: flex;
+    color: #eee;
+}
+
+.section2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5%;
+    text-align: center;
+    justify-content: center;
+}
+
+.section2 a {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: none;
+    color: #eee;
+    width: 100px;
+    height: 100px;
+    background: purple;
+    align-items: center;
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+    font-size: 2rem;
+    color: #eee;
+    background-color: #ed246a;
+    padding: 2%;
+}
+
+footer p {
+    margin: 2%;
+}
+
+footer a {
+    text-decoration: none;
+    color: #eee;
+    background-color: #201e21;
+    padding: 3px;
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 3.8rem;
+        text-align: center;
+        margin: 5% 0;
+    }
+    header nav {
+        display: flex;
+        flex-direction: column;
+        font-size: 2rem;
+        align-items: center;
+        margin: 2%;
+    }
+    header nav a {
+        width: 70px;
+        text-align: center;
+    }
+    #name {
+        font-size: 2.6rem;
+        margin: 15% 0;
+    }
+    main .section1 a {
+        font-size: 1rem;
+    }
+    #info {
+        font-size: 1.75rem;
+        margin: 20% 0;
+        text-align: justify;
+        M
+    }
+    .section1 {
+        display: flex;
+        flex-direction: column;
+        height: 100pv;
+        align-items: center;
+    }
+    #section1-5 {
+        width: 75%;
+    }
+    #section1-5 a {
+        width: 50%;
+        margin-left: 25%;
+    }
+    #portrait {
+        width: 150px;
+        height: 150px;
+        margin: 5% 0% 0% 0%;
+        align-items: center;
+    }
+    .section1 div a {
+        display: flex;
+    }
+    footer {
+        text-align: center;
+        font-size: 2rem;
+        color: #eee;
+        background-color: #ed246a;
+        padding: 10px;
+    }
+    footer a {
+        text-decoration: none;
+        color: #eee;
+        background-color: #201e21;
+        padding: 3px;
+    }
+    footer p {
+        margin: 5%;
+    }
+}
+
+@media (max-width: 800px) {
+    h1 {
+        font-size: 5.2rem;
+        text-align: center;
+        margin: 3% 0;
+    }
+    header nav {
+        display: flex;
+        flex-direction: column;
+        font-size: 2.8rem;
+        align-items: center;
+        margin-bottom: 2%;
+    }
+    header nav a {
+        width: 100px;
+        text-align: center;
+    }
+    #name {
+        font-size: 4.8rem;
+        margin: 5% 0;
+    }
+    main .section1 a {
+        font-size: 1rem;
+    }
+    #info {
+        font-size: 2.5rem;
+        margin: 10% 0;
+        text-align: justify;
+    }
+    .section1 {
+        display: flex;
+        flex-direction: column;
+        height: 100pv;
+        align-items: center;
+    }
+    #section1-5 {
+        width: 70%;
+    }
+    #section1-5 a {
+        width: 50%;
+        margin-left: 25%;
+    }
+    #portrait {
+        width: 260px;
+        height: 260px;
+        margin: 5% 0% 0% 0%;
+        align-items: center;
+    }
+    .section1 div a {
+        display: flex;
+    }
+    footer {
+        text-align: center;
+        font-size: 2rem;
+        color: #eee;
+        background-color: #ed246a;
+        padding: 10px;
+    }
+    footer a {
+        text-decoration: none;
+        color: #eee;
+        background-color: #201e21;
+        padding: 3px;
+    }
+    footer p {
+        margin: 5%;
+    }
+}

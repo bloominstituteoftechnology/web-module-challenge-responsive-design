@@ -1,0 +1,10 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+.navcontainer {
+   width: 25%;
+   height: 25%;
+   text-align: center;
+}

@@ -32,7 +32,7 @@ git checkout -b <firstName-lastName-day2> <firstName-lastName>.
 ```
 
 - [ ] Implement the project on your newly created `<firstName-lastName-day2>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName-day2>`.
+- [ ] Push commits: git push origin `<firstName-lastName-day2>`..
 
 ### Task 2: Minimum Viable Product
 

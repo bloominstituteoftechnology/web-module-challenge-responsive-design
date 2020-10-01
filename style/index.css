@@ -1,0 +1,166 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+header {
+    display: inline-block;
+    align-content: center;
+}
+
+nav {
+    display: block;
+    position: relative;
+    margin: auto;
+    width: 100%;
+}
+
+ul, li {
+    display: inline;
+    list-style-type: none;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 18px;
+    padding: 0;
+    margin: 20px 0px 20px 20px;
+}
+
+a {
+    text-decoration: none;
+    background-color: aqua;
+}
+
+h1 {
+    font-family: 'Secular One', sans-serif;
+    font-size: 40px;
+    padding: 20px;
+    margin: 20px 0px 20px 20px;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3rem;
+}
+
+.flex2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-end;
+    text-align: center;
+}
+
+.flex2 .img-with-text {
+    width: 30%;
+}
+
+footer {
+    display: flex;
+    background-color: gray;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin: 5px 0 5px 0;
+    padding: 2%;
+    font-size: 30px;
+    width: 100%;
+}
+
+.intro {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+}
+
+
+.flex {
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    padding: 200px;
+}
+
+.flex .btn {
+    height:50px;
+    width: 200px;
+    text-align: center;
+    font-size: 30px;
+    margin: 50px;
+
+}
+
+.btn a {
+    background-color: whitesmoke;
+}
+
+.footbtn {
+    font-size: 18px;
+    padding: 1%;
+}
+
+footer .pbtn {
+    width: 50%;
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+      background-color: lightblue;
+      width: 50%;
+    }
+    .flex2 {
+        flex-direction: column;
+        width: 800px;;
+    }
+    .intro img {
+        width: 200px;
+        height: 200px;;
+    }
+    .flex, h3 {
+        width: 800px;
+    }
+    footer .pbtn, footer .footbtn {
+        width: 100%;
+        font-size: 50%;
+    }
+    footer {
+        width: 800px;
+    }
+  }
+
+
+  @media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+        width: 50%;
+      }
+      .flex2 {
+          width: 500px;
+          flex-direction: column;
+          text-align: center;
+      }
+      .intro img {
+          width: 200px;
+          height: 200px;
+      }
+      .flex, h3 {
+          width: 500px;
+      }
+      footer .pbtn, footer .footbtn {
+          width: 50%;
+          font-size: 50%;
+      }
+      footer {
+          width: 500px;
+      }
+}

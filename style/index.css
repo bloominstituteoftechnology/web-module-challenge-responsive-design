@@ -1,0 +1,189 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Add CSS styling here */
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: green;
+}
+
+.logo {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    padding-right: 2em;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 2% 2% 2%;
+}
+
+.navbar li a {
+    text-decoration: none;
+    margin-right: 1em;
+}
+
+li {
+    margin: 2% 2% 2% 2%;
+}
+
+a {
+    color: #fefefe;
+    font-size: 1.2em;
+}
+
+h1 {
+    font-size: 4em;
+    color: #000000;
+    font-family: 'Vollkorn', serif;
+}
+
+h3 {
+    font-size: 2em;
+    font-family: 'Vollkorn', serif;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000;
+}
+
+.hero-img {
+    background-image: url(/assets/img/scott-webb-GQD3Av_9A88-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 60vh;
+}
+
+.projects {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.project {
+    margin: 2em;
+}
+
+.project1-text {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.project img {
+    width: 25vw;
+}
+
+footer {
+    background-color: brown;
+}
+
+.nav-links ul li {
+    text-align: center;
+}
+
+.footer-navbar {
+    text-align: center;
+    height: 20vh;
+}
+
+.footer-navbar .nav-links {
+    justify-content: center;
+}
+
+.footer-navbar .nav-links li a img {
+    width: 2em;
+}
+
+button {
+    background-color: violet;
+    height: 3em;
+    width: 12em;
+    color: #fefefe;
+    border-radius: 4px;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 800px) {
+  
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 500px) {
+
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar .nav-links {
+        flex-direction: column;
+
+    }
+
+    .project {
+        margin: 2em;
+    }
+    
+
+}

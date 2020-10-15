@@ -71,7 +71,8 @@ div p {
     text-align: center;
 }
 
-@media all and (max-width:800px) {
+@media all and (max-width:800px) 
+{
    nav {
       display: flex;
       text-align: center;

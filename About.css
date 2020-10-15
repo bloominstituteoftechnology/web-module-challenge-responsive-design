@@ -1,0 +1,141 @@
+html,
+body {
+  margin: 0;
+  font-family: 'Calibri', 'Helvetica', 'Arial', sans;
+  background-color: grey;
+}
+.bop {
+  margin: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px;
+  text-align: center;
+  max-width: 100%;
+  width: 500px;
+  margin: auto;
+  font-family: monospace;
+  
+}
+/*
+** HEADER
+** -------------------- */
+.appHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  margin: 0;
+  background-color: #441009;
+  color: #ffffff;
+  border-bottom: 2px solid #16192e;
+}
+
+button {
+  color: white;
+  font-weight: bold;
+  background-color: #cc2525;
+  border-radius: 10px;
+  border: 1px;
+  box-shadow: 2px 3px rgb(39, 35, 35);
+  border-spacing: 10px;
+  height: 30px;
+  width: 70%px;         
+}
+
+p {
+  text-align: center;
+  font-size: 25px;
+  max-width: 100%;
+  width: 500px;
+  margin: auto;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.appFooter {
+  padding: 10px 20px;
+  text-align: center;
+  border-top: 1px solid #dfdfdf;
+}
+/*
+** CONTAINER
+** -------------------- */
+.container {
+  padding: 5px;
+}
+/*
+** GRID
+** - using CSS flexbox
+** - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+** -------------------- */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: -0.5rem;
+  align-self:auto;
+}
+.grid-col {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 0 0 0.5rem 0.5rem;
+  align-self:auto;
+}
+/*
+** HERO
+** -------------------- */
+.hero {
+  width: 100%;
+  height: 800px;
+  margin: 0 0 15px 0;
+  background: url('https://wallpaperaccess.com/full/1.jpg') transparent
+    no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+/*
+** CARD
+** -------------------- */
+.card {
+  width: 100%;
+  height: 180px;
+  border-bottom: 1px solid #333333;
+  position: relative;
+  overflow: hidden;
+  align-self:auto;
+}
+.card-image {
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  align-self:auto;
+}
+.card-label {
+  box-sizing: border-box;
+  padding: 10px 20px;
+  text-align: right;
+  background-color: rgb(0, 0, 0, 0.6);
+  color: #efefef;
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  align-self:auto;
+
+  @media(min-width: 600px) {
+    .body {
+      font-size: 1.25rem;
+     display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    }
+  {
+
+  @media(max-width: 800px) {
+    .bop {
+      font-size: 1.5rem;
+      display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    }

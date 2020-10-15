@@ -1,0 +1,124 @@
+/* Add CSS styling here */
+div.maincontainer {
+    width: 90%;
+    margin:0 auto;
+    padding: 0px;
+   
+}
+
+h1 {
+    font-family:Thorsley;
+    font-size: 60px;
+
+}
+
+.header {
+    background-color: aquamarine;
+}
+
+body {
+    background-color:#ECF0F1 ;
+}
+
+button {
+    background-color: #C0392B;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+h2 {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:30px;
+}
+
+p {
+    font-family:  roboto mono;
+    font-size:  18px;
+}
+
+footer {
+text-align: center;
+background-color:#CE93D8 ;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:20px;
+}
+
+div .header {
+    display: block;
+    text-align: center;
+}
+
+.flex-container{
+    text-align: center;
+    min-width: 275px ;
+}
+
+.flex-container1 {
+    display: flex;
+    padding-top: 30px;
+    margin-right: 10px; 
+    justify-content: center;
+}
+
+div .code {
+    padding: 10px;
+
+}
+
+div p {
+    text-align: center;
+}
+
+@media all and (max-width:800px) {
+   nav {
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    div.flex-container1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+  button {
+      padding:5px;
+      margin: 1px;
+      width: 70px;
+  }
+
+  .header { 
+      display: flex;
+      flex-wrap: wrap; 
+      flex-direction: column;
+     }
+
+     @media all and (max-width:500px) {
+        nav {
+           display: flex;
+           text-align: center;
+           justify-content: center;
+           flex-direction: column;
+           align-items: center;
+         }
+         
+         div.flex-container1 {
+             display: flex;
+             flex-direction: row;
+             flex-wrap: wrap;
+         }
+     
+       button {
+           padding:2px;
+           margin: 1px;
+           width: 70px;
+       }
+     
+       
+
+}

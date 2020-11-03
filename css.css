@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+/*font-family: 'Sevillana', cursive;*/
+*{
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    background:orangered;
+    padding:10px;
+    margin-bottom: 2px;
+}
+.logo{
+    width:50%;
+    text-shadow: 2px 2px black;
+    color:white;
+    font-family: 'Sevillana',cursive;
+    font-size: 3rem;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    width:40%;
+    align-items: center;
+}
+nav a{
+    color:white;
+    font-size: 2rem;
+    text-shadow: 2px 2px black;
+    padding: 2px auto;
+    text-decoration: none;
+}
+nav a:hover{
+    transform: scale(1.3);
+    color: white;
+}
+.hellofox{
+    display: flex;
+    width: 100%;
+    background: url(Images/smirkingfox.jpg);
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    margin-bottom: 10px;
+    height: 60vh;
+}
+.hellofox:hover .foxfacts{
+    opacity:1;
+}
+.foxfacts{
+    width:40%;
+    height: auto;
+    padding: 15px;
+    margin-right: 20px;
+    color: white;
+    text-shadow: 1px 1px black;
+    font-family: sans-serif;
+    font-size: 1rem;
+    background-color: orangered;
+    opacity: 0;
+    transition: .3s;
+}
+.foxtrot{
+    height: 50vh;
+    width: 100%;
+    background-color: orangered;
+}
+.foxes{
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+h1{
+    font-family: 'Sevillana', cursive;
+    font-size: 2rem;
+    color: white;
+    text-shadow: 2px 2px black;
+    margin: 0 0 40px 30px;
+    padding-top: 40px;
+}
+.foxes div{
+    width: 25%;
+    height: 50vh;
+    border: 5px black solid;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+}
+.redfox{
+    background: url(Images/foxfox.jpg);
+}
+.articfox{
+    background: url(Images/snowfox.jpg);
+}
+.fennecfox{
+    background: url(Images/sandfox.jpg);
+}
+.foxes div div{
+    width: 70%;
+    height: auto;
+    background-color: orangered;
+    border-radius: 10px;
+    padding:15px;
+    font-size: 1rem;
+    color: white;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    opacity: 0;
+    transition: .3s;
+}
+.foxes div:hover div{
+    opacity: 1;
+}
+.foxes span{
+    color:orangered;
+    width:100%;
+    justify-content: center;
+    text-align: center;
+    font-size: 3rem;
+    opacity: 0;
+}
+.foxes span:hover{
+    opacity: 1;
+}
+footer{
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer span{
+    font-family: 'Sevillana', cursive;
+}
+footer a{
+    text-decoration: none;
+    font-family: 'Sevillana', cursive;
+    color:black;
+    font-size: 3rem;
+}
+footer a:hover{
+    color: orangered;
+    transform:scale(1.3)
+}
+
+

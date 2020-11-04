@@ -8,7 +8,7 @@ In this module challenge you will continue working on your portfolio website to 
 
 ## Objectives
 
-- describe the differences in fixed, fluid, adaptive, and responsive layouts
+- describe the differences in fixed, fluid, adaptive, and responsive layouts 
 - implement media queries in a project.
 - describe how using scalable units for font sizes impacts accessibility and why designing accessible web pages is important
 
@@ -60,7 +60,7 @@ Once you finish the minimum viable project, work on any of the following stretch
 
 **What if I'm not done with my site from last time?**
 
-*If you're not totally happy with your site, that's fine. Try to work with what you have. If your challenge from yesterday is in a state that you **absolutely** cannot work on it, reach out to your TL for starter code and attend support hours for more HTML/CSS help.*
+*If you're not totally happy with your site, that's fine. Try to work with what you have. If your challenge from yesterday is in a state that you **absolutely** cannot work on it, reach out to your TL for starter code and attend support hours for more HTML/CSS help.* 
 
 **My site works on mobile - does that count as responsive?**
 

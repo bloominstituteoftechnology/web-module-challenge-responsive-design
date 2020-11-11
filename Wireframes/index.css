@@ -48,8 +48,67 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*end of reset*/
+html {box-sizing: border-box}
 
-html { font-size:62.5%;
+body{ background:lightgray;
+	
 }
-body { box-sizing: border-box;
+header {display:flex;
+	justify-content: center;
+	padding:2%;
+}
+h1 {font-size:2.5rem;
+}
+header nav a {display:flex;
+flex-flow: column wrap;
+padding:1rem;
+text-decoration:none;
+color:black;
+border:1px solid black;
+margin: 1rem;
+justify-content:center;
+background:white;
+}
+
+section.image-text img {display:flex;
+ margin-right: auto;
+ margin-left: auto;
+padding-bottom: 1rem;
+}
+h2 {display:flex;
+justify-content: center;
+font-size:2rem;
+}
+button.projects-button{
+	padding: 0.5rem;
+	display:flex;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+section.image-text p { display: flex;
+	justify-content: center;
+	line-height: 1.5;
+}
+section.image-container img { display: flex;
+	flex-flow: column wrap;
+	margin-left: auto;
+	margin-right: auto;
+	padding:1rem;
+}
+footer { background:black;
+	color:white;
+	padding:5rem;
+}
+h3 {font-size:2rem;
+	display: flex;
+	justify-content: center;
+	margin-bottom:2rem;
+}
+button.contact-button {display:flex;
+	padding:.5rem;
+	font-size: 1.25rem;
+	margin-left:auto;
+	margin-right: auto;
 }

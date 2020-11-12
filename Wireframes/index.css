@@ -49,6 +49,7 @@ table {
 	border-spacing: 0;
 }
 /*end of reset*/
+
 html {box-sizing: border-box}
 
 body{ background:lightgray;
@@ -60,13 +61,16 @@ header {display:flex;
 }
 h1 {font-size:2.5rem;
 }
-header nav a {display:flex;
-flex-flow: column wrap;
-padding:1rem;
+nav a {display:flex;
+flex-flow: column nowrap;
+padding: 0.5rem;
 text-decoration:none;
 color:black;
 border:1px solid black;
-margin: 1rem;
+margin-top: 1rem;
+margin-bottom: 2rem;
+margin-left: 48%;
+margin-right: 48%;
 justify-content:center;
 background:white;
 }
@@ -90,13 +94,32 @@ button.projects-button{
 section.image-text p { display: flex;
 	justify-content: center;
 	line-height: 1.5;
+	margin: 1rem;
 }
-section.image-container img { display: flex;
-	flex-flow: column wrap;
+
+/*Image columns*/
+.image-container { display:flex;
+	flex-flow: row wrap;
+	max-width:600px; 
+	max-height:800px;
+	margin:auto;
+}
+/*800px breakpoint*/
+@media screen and (max-width:800px){
+	.image-container { width: 50%;}
+}
+
+
+/*500px breakpoint*/
+@media screen and (max-width:500px){
+	.image-container { width:100%;}
+}
+section.image-container img {display:flex;
 	margin-left: auto;
 	margin-right: auto;
 	padding:1rem;
 }
+
 footer { background:black;
 	color:white;
 	padding:5rem;

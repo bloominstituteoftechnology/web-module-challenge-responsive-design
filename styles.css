@@ -1,0 +1,58 @@
+*, 
+body {
+    box-sizing: border-box;
+    margin: 15px;
+    padding: 10px;
+    background: pink;
+    text-align: center; 
+
+    }
+
+
+section {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+a {
+    text-decoration: none;
+    height: 15px;
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+    background: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
+
+
+
+  @media (min-width: 500px) {
+    header nav {
+     height: 25vh;
+     align-items: center;
+    }sad
+      }
+
+   
+  
+  @media (max-width: 800px) {
+     body {
+      
+      align-items: center;
+      text-align: right;
+     }
+        a {
+         background: rgb(255, 129, 150);
+    }
+
+    }
+
+
+
+
+    
+
+
+

@@ -1,0 +1,403 @@
+@import url(https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap,https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap);
+*{
+    /* max-width:800px */
+}
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: gold;
+
+    
+}
+html{
+    /* font-size: 62.5%; */
+}
+body{
+    font-size: 62.5%;
+    align-content: center;
+    background-color: rgb(61, 4, 61);
+    width: 62.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    border: white.2rem double;
+}
+.toplogo{
+    width: 100%;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 50px;
+    margin: 15px 10px 0  0;
+    text-shadow:2px 2px white;
+    text-align: center;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    margin:2px;
+    
+}
+nav a{
+    border: .1rem white;
+    border-style: solid;
+    margin: 2%;
+    padding: 1rem 3rem;
+    text-decoration: none;
+    font-family: 'Indie Flower', cursive;
+    color: gold;
+    font-size: 1rem;
+}
+.banner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.midintro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.midintro  div h1{
+    font-size: 2.1rem;
+    margin: 1rem 0 0 0;
+    font-family: 'Shadows Into Light', cursive;
+    color:white;
+}
+.mainText{
+    margin: 1rem 13rem;
+    font-size: 1rem;
+    font-family: 'Indie Flower', cursive;
+    color: honeydew;
+}
+.bottomgallery{
+    display: flex;
+    flex-wrap: wrap;
+    height: 70rem;
+    width: 38rem;
+}
+.bottomgallery div{
+    margin: 3rem auto;
+    
+
+}
+.right{
+    width:12.5rem;
+    height:25rem;
+}
+.left{
+    width:12.5rem;
+    height:25rem;
+}
+.conclu{
+    width: 100%;
+    height: 9rem;
+
+}
+.conclu p{
+    margin: 1rem 13rem;
+    font-size: 1rem;
+    font-family: 'Indie Flower', cursive;
+    color: honeydew;
+    text-align: center;
+}
+
+footer{
+    height:10rem;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: gold;
+    border-top: .3rem solid honeydew;
+    width: 100vw;
+   
+}
+footer div{
+    height:3rem;
+    display: flex;
+    justify-content: center;
+}
+footer div p{
+    height: 2rem;
+    border: .3rem solid white;
+    border-radius: 4rem;
+    width: 7rem;
+    text-align: center;
+    color: indigo;
+    font-weight: bold;
+}
+/*   MEDIA CHANGE */
+@media screen and (max-width: 800px) {
+
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(61, 4,61);
+    height: 28rem;
+}
+img{
+    border: .4rem solid honeydew;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 62.5%;
+    align-content: center;
+    background-color:gold;
+    width: 50rem;
+}
+.toplogo{
+    width: 50rem;
+    font-family: 'Shadows Into Light', cursive;
+    font-size:5rem;
+    margin:0 auto;
+    text-shadow:.125rem .1875rem white;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    margin: .2rem;
+    width: 20rem;
+    height: 10rem;
+    
+}
+nav a{
+    border: .1rem rgb(61, 4, 61);
+    border-style: solid;
+    margin: 1%;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-family: 'Indie Flower', cursive;
+    color: rgb(61, 4, 61);
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.banner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.midintro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.midintro  div h1{
+    font-size: 2.1rem;
+    margin: 1rem 0 0 0;
+    font-family: 'Shadows Into Light', cursive;
+    color: rgb(61, 4, 61);
+    text-shadow:2px 3px white;
+}
+.mainText{
+    margin: 1rem 13rem;
+    font-size: 1rem;
+    font-family: 'Indie Flower', cursive;
+    color: rgb(61, 4, 61);
+}
+.bottomgallery{
+    display: flex;
+    flex-wrap: wrap;
+    height: 65rem;
+    width: 38rem;
+}
+.bottomgallery div{
+    margin: 3rem auto;
+    justify-content: space-evenly;
+}
+.right{
+    max-width:12.5rem;
+    max-height:25rem;
+}
+.left{
+    max-width:12.5rem;
+    max-height:25rem;
+}
+.conclu{
+    width: 100%;
+    height: 9rem;
+
+}
+.conclu p{
+    margin: 1rem 13rem;
+    font-size: 1rem;
+    font-family: 'Indie Flower', cursive;
+    color: rgb(61, 4, 61);
+    text-align: center;
+}
+footer{
+    height:10rem;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: rgb(61, 4, 61);
+    border-top: .3rem solid honeydew;
+    width: 56.25rem;
+   
+   
+}
+footer div{
+    height:3rem;
+}
+footer div p{
+    height: 2rem;
+    border: .3rem solid white;
+    border-radius: 4rem;
+    width: 7rem;
+    text-align: center;
+    color: honeydew;
+    font-weight: bold;
+}
+}
+@media screen and (max-width: 500px) {
+
+    header{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        width: 100vw;
+        max-height: 40rem;
+    }
+    img{
+        border: .1rem solid gold;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        font-size: 62.5%;
+        align-content: center;
+        background-color:black;
+    }
+    .toplogo{
+        width: 31.25rem;
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 5rem;
+        margin: 1.5rem 1rem 0  0;
+        text-shadow:2px 3px gold;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin:1rem 0 0 0;
+        width: 400px;
+        height: 400px;
+
+    }
+    nav a{
+        border: .1rem gold;
+        border-style: solid;
+        margin: 2%;
+        padding: 10px 30px;
+        text-decoration: none;
+        font-family: 'Indie Flower', cursive;
+        color: white;
+        font-weight: bold;
+        align-items: center;
+
+    }
+    .banner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner img{
+        align-content: center;
+        border: none;
+        width:40rem;
+        height: 15rem;
+    
+    }
+    .midintro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 85vw;
+        margin-top: 2rem;
+
+    }
+    .midintro  div h1{
+        font-size: 2.1rem;
+        margin: 0 auto;
+        font-family: 'Shadows Into Light', cursive;
+        color: white;
+        text-shadow:2px 3px gold;
+        
+
+    }
+    .mainText{
+        margin: 1rem 1rem;
+        font-size: 1rem;
+        font-family: 'Indie Flower', cursive;
+        color: white;
+        
+    }
+    .bottomgallery{
+        display: flex;
+        flex-wrap: wrap;
+        height: 65rem;
+        width: 38rem;
+    }
+    .bottomgallery div{
+        margin: 3rem auto;
+        justify-content: space-evenly;
+    }
+    .right{
+        max-width:12.5rem;
+        max-height:25rem;
+    }
+    .left{
+        max-width:12.5rem;
+        max-height:25rem;
+    }
+    .conclu{
+        width: 31rem;
+        height:8rem;
+        display: flex;
+        align-content: center;
+    
+    }
+    .conclu p{
+        margin:0 auto;
+        font-size: 1rem;
+        font-family: 'Indie Flower', cursive;
+        color:white;
+        text-align: center;
+        align-content: center;
+    }
+    footer{
+        height:10rem;
+        text-align: center;
+        font-size: 1.2rem;
+        background-color: gold;
+        border-top: .3rem solid white;
+       
+       
+    }
+    footer div{
+        height:3rem;
+        display: flex;
+        justify-content: center;
+    }
+    footer div p{
+        height: 2rem;
+        border: .3rem solid white;
+        border-radius: 4rem;
+        width: 7rem;
+        text-align: center;
+        color: rgb(61, 4, 61);
+        font-weight: bold;
+    }
+
+}

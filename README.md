@@ -41,17 +41,17 @@ Use the checklist below to guide your work today. Your final product should be p
 - [x] Insert a viewport meta tag into the head of the project with these html attributes: content="width=device-width, initial-scale=1"
 - [x] Introduce max-width media queries into your project at 800px and 500px
 - [x] Add accessibility features to your webpage
-- [ ] Design should closely follow the [mobile wireframe](Wireframes/) given for your chosen layout
+- [x] Design should closely follow the [mobile wireframe](Wireframes/) given for your chosen layout
 
 
 ### Task 3: Stretch Goals
 
 Once you finish the minimum viable project, work on any of the following stretch goals:
 
-- [ ]  Test your website at several breakpoints and refactor code as needed. A few common breakpoints are below:
-  - [ ]  iPhone: 360×640
-  - [ ]  Laptop: 1366×768
-  - [ ]  Widescreen: 1920×1080
+- [x]  Test your website at several breakpoints and refactor code as needed. A few common breakpoints are below:
+  - [x]  iPhone: 360×640
+  - [x]  Laptop: 1366×768
+  - [x]  Widescreen: 1920×1080
 - [ ] Test your webpage's accessibility with a screen reader like [this](https://support.google.com/accessibility/answer/7031755?hl=en)
 - [ ] Start over with min-width media queries to get a feel for how a mobile first approach would be like. I recommend making a branch of all your content in a new folder named "mobile-first" to keep it separate
 - [ ] Test your webpage's accessibility with a screen reader like [this](https://support.google.com/accessibility/answer/7031755?hl=en)
@@ -78,5 +78,5 @@ Once you finish the minimum viable project, work on any of the following stretch
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 

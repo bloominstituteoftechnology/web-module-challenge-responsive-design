@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+*{
+    background-color: lightpink;
+    font-family: "Cinzel"; 
+}
+
+h1 {
+    color: #FAEBD7;
+    background-color: #E9967A;
+}
+
+.a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #E9967A;
+    width: 100%;
+    flex-wrap: nowrap;
+    overflow-x: auto'
+}
+
+.a a{
+    color: #FAEBD7;
+    text-decoration: none;
+    background-color: #E9967A;
+}
+
+.a a:hover {
+    color: #8FBC8F;
+}
+
+.b {
+    text-align: center;
+    display: flex;
+}
+
+h2 {
+    color: #8FBC8F;
+    text-align: center;
+}
+
+button {
+    background-color: #E6E6FA;
+    color: black;
+    width: 90px;
+}
+
+p {
+    color: #FFFFF0;
+}
+
+.flexcontainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.d {
+    float: right;
+}
+
+.c, .d {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-around;
+}
+
+.e {
+    background-color: #FFC0CB;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+img {
+    max-height: 200px;
+    padding: 20px;
+}
+
+span {
+    color: green;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 800px) {
+    img {
+        height: 50%;
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .c, .d {
+        height: 35%;
+        width: 20%;
+        display: flex;
+        flex-wrap: wrap-reverse;
+         justify-content: center; 
+        align-content: space-around;
+    } 
+    header {
+        text-align: center;
+        margin-left: 24%;
+    }
+    .a {
+        flex-direction: column;
+        text-align: center;
+        height: 30vh;
+        width: 65%;
+    }
+    img {
+        width: 55%;
+    }
+}
+
+@media (min-width: 1000px) {
+    img {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}

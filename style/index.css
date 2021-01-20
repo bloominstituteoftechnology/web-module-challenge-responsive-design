@@ -1,0 +1,343 @@
+/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #d1d0cd !important;
+	
+}
+
+ h1 {
+ 	font-weight: bold;
+}
+ 
+.top-bar {
+	display: block;
+	margin: 0 auto;
+	background-color: #232323;
+	color: #FFF;
+	line-height: 60px;
+	height: 65px;
+	width: 100%;
+	box-sizing:border-box;
+	top: 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 2rem;
+	font-weight: lighter;
+	
+}
+
+.logo {
+	margin:  5px 10px 5px 40px;
+	
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.title-text > * { 
+	vertical-align: text-bottom;
+	padding-bottom: 10px;
+	
+}
+
+header {
+	display: block;
+}
+
+header div div h3 {
+	display: inline-block;
+	color: #FFF;
+}
+
+header div {
+
+}
+
+.nav-bar {
+	display: flex;
+	flex-direction: row;	
+	background-color: #555;
+	height: 35px;
+	line-height: 35px;
+	padding: 0 40px 20px 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.8rem;
+	font-weight: light;
+	
+}
+nav {
+	margin: 0;
+
+}
+.nav-bar a {
+	display: inline-block;
+	padding: 0 10px 10px 0;
+	text-decoration: none;
+	color: #FFF;
+	vertical-align: middle;
+	margin-bottom: 0;
+	height:35px;
+}
+.nav-bar a.active {
+	padding-left: 10px;
+}
+.active {
+	background-color: #0aafa5;
+	padding-left: 15px;
+	
+}
+.not-active {
+	color: #0aafa5;
+}
+
+#banner-img {
+	background-image: url("https://i.picsum.photos/id/929/2100/300.jpg?hmac=9fVo_Kz9M9knm8oq-15IwepfhCUjS5ZIACORJUC11Mg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+
+section {
+	display: block;
+
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 40px;
+	align-items: center;
+	
+		
+}
+.wrapper .heading {
+	width: 65%;
+	border: 2px solid #6c7575;
+	background-color: #FFF !important;
+	opacity: 0.8;
+	padding: 40px;
+	text-align: justified;
+
+
+}
+.wrapper .heading .heading-title h1{
+	font-family: 'Yusei Magic', sans-serif;
+	font-size: 4vw;
+	text-align: center;
+}
+
+.heading-title {
+	margin-top: 40px;
+	text-align: center
+	
+}
+
+p {
+	text-align: justified;
+}
+
+.btn-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	
+}
+
+button {
+	text-align: center;
+	background-color: #0aafa5;
+	cursor: pointer;
+	width: 12vw;
+	height: 8vh;
+	border: 2px solid #cfc9c8;
+	margin: 20px;
+
+}
+
+.button {
+	text-align: center !important;
+	font-weight: 500;
+	padding: 7px 20px;
+	color: #FFF;
+	
+ }
+
+.btn-a {
+	display:inline-block;
+ 	padding-left: 20px;
+ 	padding-right: 20px;
+	text-decoration: none;
+	color: #FFF;
+	vertical-align: middle;
+	font-size: 2vw;
+ }
+ 
+.gallery .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.gallery .container div {
+  width: 30%;
+  height: 40vh;
+  margin: 2% 0;
+  display: flex;
+  align-items: flex-end;
+}
+
+.gallery .container div .hide {
+  background-color: #fff;
+  height: 10vh;
+  display: none;
+}
+
+.gallery .container div .hide h2 { 
+	font-weight: bold;
+	background-color: #0aafa5;
+	color: #FFF;
+}
+
+.gallery .container div .hide h2, p {
+  margin: 4%;
+}
+
+.gallery .container div:hover .hide {
+  display: block;
+}
+
+.gallery .container .module1 {
+  background-image: url('https://i.picsum.photos/id/54/2100/2100.jpg?hmac=1bo0b2PO3Z72uOGG8va-s5p4H6ulToM3hi2_24Umhtw');
+  background-size: cover;
+  background-position: center;
+ }
+.gallery .container .module2 {
+  background-image: url('https://i.picsum.photos/id/609/2100/2100.jpg?hmac=2L885J6jD009T3Byj9ikZzmUKUIrbPp20lqXVPYkXc4');
+  background-size: cover;
+  background-position: center;
+ }
+ .gallery .container .module3 {
+  background-image: url('https://i.picsum.photos/id/949/2100/2100.jpg?hmac=IX6E5gKXHrXsuOAvsHlsJt0saDyBsdo8jfhGtEgJ6Lw');
+  background-size: cover;
+  background-position: center;
+ }
+.gallery .container .module4 {
+  background-image: url('https://i.picsum.photos/id/316/2100/2100.jpg?hmac=mir3ygxRs2ZaZYS2nZD6b_e_40ZewHXqvpdGf-_7BJ0');
+  background-size: cover;
+  background-position: center;
+ 
+}
+.gallery .container .module5 {
+  background-image: url('https://i.picsum.photos/id/55/2100/2100.jpg?hmac=fmtxC81VVgpwvMg2zgKQcC0C6H5uuFq-MlqX_VzxfBE');
+  background-size: cover;
+  background-position: center;
+}
+.gallery .container .module6 {
+  background-image: url('https://i.picsum.photos/id/368/2100/2100.jpg?hmac=9Bo5QRytN7OZZ-_b1TYS-k4ngjMWkV-dNIvkkxV07vI');
+  background-size: cover;
+  background-position: center;
+ }
+.footer {
+	display: block;
+	margin: 0 auto;
+	background-color: #232323;
+	color: #D7D6D5;
+	line-height: 60px;
+	height: 65px;
+	width: 100%;
+	box-sizing:border-box;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 2rem;
+	font-weight: lighter;	
+}
+
+@media only screen and (max-width:500px){
+	.heading-title h1 {
+		font-size: 2.5vw;
+	}
+	button { 
+		width: 23vw;
+		height: 6vh;
+	}
+	.btn-a { font-size: 3.5vw; }
+
+	.gallery .container div { height: 15vh; }
+
+	header {
+		text-align: center;
+	}
+	.logo {
+		margin: 0;
+		height: 4vh;
+	}
+	
+	.title-text {
+		padding-top: 10px;
+	}
+	.title-text > * {
+		font-size: 3vw;
+		vertical-align: baseline;
+	}
+	.nav-bar {
+		display: block;
+		height: 100%;
+		width: 100%;
+		padding: 0;
+
+	}
+	.nav-bar a {
+		display: block;
+		text-align: center;
+		border-bottom: 1px solid lightgray;
+		background-color: rgb(44, 49, 49);
+		
+	}
+	a.nav-items {
+		
+		font-size: 3vw;
+		width: 100%;
+	}
+	.nav-bar a.active {
+		font-size: 3vw;
+		background-color: #0aafa5;
+	}
+
+}

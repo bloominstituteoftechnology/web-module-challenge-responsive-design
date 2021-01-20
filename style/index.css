@@ -29,9 +29,7 @@ vertical-align: baseline;
 	max-width: 100%;
 }
 
-html {
-	font-size: 62.5%;
-}
+
 
 body {
 	font-family: 'Roboto', sans-serif;
@@ -347,6 +345,56 @@ button {
 	}
 }
 
-@media only screen and (max-width:800px) {
+@media only screen and (min-width: 501px) and (max-width:800px) {
+	.wrapper .heading .heading-title h1 {
+		font-size: 2vw;
+	}
+	button { 
+		width: 23vw;
+		height: 6vh;
+	}
+	.btn-a { font-size: 2.75vw; }
 
+	.gallery .container div { height: 15vh; }
+
+	header {
+		text-align: center;
+	}
+	.logo {
+		margin: 0;
+		height: 4vh;
+	}
+	
+	.title-text {
+		padding-top: 10px;
+	}
+	.title-text > * {
+		font-size: 2vw;
+		vertical-align: baseline;
+	}
+	.nav-bar {
+		display: block;
+		height: 100%;
+		width: 100%;
+		padding: 0;
+
+	}
+	.nav-bar a {
+		display: block;
+		text-align: center;
+		border-bottom: 1px solid lightgray;
+		background-color: rgb(44, 49, 49);
+		
+	}
+	a.nav-items {	
+		font-size: 3vw;
+		width: 100%;
+	}
+	.nav-bar a.active {
+		font-size: 3vw;
+		background-color: #0aafa5;
+	}
+	.footer {
+		font-size: 2vw;
+	}
 }

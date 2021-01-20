@@ -298,6 +298,10 @@ button {
 		width: 23vw;
 		height: 6vh;
 	}
+
+	.btn-container h2 {
+		font-size: 3vw;
+	}
 	.btn-a { font-size: 2.75vw; }
 
 	.gallery .container div { height: 15vh; }
@@ -340,8 +344,8 @@ button {
 		font-size: 3vw;
 		background-color: #0aafa5;
 	}
-	footer {
-		font-size: 1vw;
+	.footer {
+		font-size: 3vw;
 	}
 }
 

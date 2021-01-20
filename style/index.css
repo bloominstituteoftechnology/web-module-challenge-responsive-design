@@ -170,17 +170,19 @@ p {
 
 .btn-container {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: center;
-	
+	align-items: center;
 }
-
+.btn-container h2 {
+	font-size: 2vw;
+}
 button {
 	text-align: center;
 	background-color: #0aafa5;
 	cursor: pointer;
 	width: 10vw;
-	height: 5	vh;
+	height: 5vh;
 	border: 2px solid #cfc9c8;
 	margin: 20px;
 
@@ -204,10 +206,15 @@ button {
 	font-size: 1vw;
  }
  
+ .gallery {
+	 display: flex;
+	 justify-content: center;
+ }
 .gallery .container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+	width: 65%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 
 }
 
@@ -215,8 +222,8 @@ button {
   width: 30%;
   height: 40vh;
   margin: 2% 0;
-  display: flex;
-  align-items: flex-end;
+  justify-content: center;
+  align-items: center;
 }
 
 .gallery .container div .hide {
@@ -281,7 +288,7 @@ button {
 	box-sizing:border-box;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
-	font-size: 3vw;
+	font-size: 1vw;
 	font-weight: lighter;	
 }
 
@@ -338,4 +345,8 @@ button {
 	footer {
 		font-size: 1vw;
 	}
+}
+
+@media only screen and (max-width:800px) {
+
 }

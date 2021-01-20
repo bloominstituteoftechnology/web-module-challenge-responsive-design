@@ -353,9 +353,12 @@ button {
 		width: 23vw;
 		height: 6vh;
 	}
-	.btn-a { font-size: 2.75vw; }
+	.btn-container h2 {
+		font-size: 3vw;
+	}
+	.btn-a { font-size: 2vw; }
 
-	.gallery .container div { height: 15vh; }
+	.gallery .container div { height: 20vh; }
 
 	header {
 		text-align: center;
@@ -387,11 +390,11 @@ button {
 		
 	}
 	a.nav-items {	
-		font-size: 3vw;
+		font-size: 2vw;
 		width: 100%;
 	}
 	.nav-bar a.active {
-		font-size: 3vw;
+		font-size: 2vw;
 		background-color: #0aafa5;
 	}
 	.footer {

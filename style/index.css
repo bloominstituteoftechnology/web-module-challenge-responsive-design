@@ -1,19 +1,39 @@
 body{
-    width: 1600px;
+    width: 768px;
     background: rgb(2,0,36);
     background: linear-gradient(180deg, rgba(2,0,36,1) 20%, rgba(93,0,129,1) 80%, rgba(0,212,255,1) 100%);
 }
 .header {
-    width: 1600px;
+    width: 768px;
     padding: 1%;
 }
 
+@media only screen and (max-width: 600px) {
+    .header {
+      width: 60%;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .header {
+    width: 40%;
+    }
+}
 #headertext{
     color: white;
     font-family: 'Source Code Pro', monospace;
     font-size:40px;
-    width: 1600px;
+    width: 768px;
     padding: 0.25%;
+}
+@media only screen and (max-width: 600px) {
+    .headertext {
+      width: 60%;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .headertext {
+    width: 40%;
+    }
 }
 
 .headerlink{
@@ -26,6 +46,16 @@ body{
     margin-right: 2%;
     justify-content: center;
 }
+@media only screen and (max-width: 600px) {
+    .headerlink {
+      width: 60%;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .headerlink {
+    width: 40%;
+    }
+}
 
 .toplink{
     text-decoration: none;
@@ -37,7 +67,7 @@ body{
 }
 
 .topproject{
-    width:1600px;
+    width:800px;
     padding:1%;
     display: inline-flex;
     border: 1%;
@@ -45,7 +75,7 @@ body{
 }
 
 .topproject img{
-    width: 800px;
+    width: 400px;
     border-radius: 12px;
 }
 

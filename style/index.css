@@ -16,6 +16,10 @@ h1{
     font-size:7rem;
     margin-left: 2%;
 }
+h2{
+    font-size: 5rem;
+    text-align: center;
+}
 
 .links a{ /* Navigation buttons*/
     font-size: 3rem;
@@ -89,6 +93,9 @@ flex-wrap:wrap;
 font-size: 2.4rem;
 text-align:center;
 }
+#projectSection a{
+    text-decoration: none;
+}
 #projectSection div{
     width:22.5%;
     margin: 1%;
@@ -96,6 +103,10 @@ text-align:center;
 footer{
     text-align:center;
     background-color:darkgray;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    font-size: 2rem;
 }
 footer h2{
     font-size: 4.5rem;
@@ -103,10 +114,11 @@ footer h2{
 }
 footer a{
     font-size:2.4rem;
-    padding: 0.3%;
+    padding: 0.1%;
     background-color:peachpuff;
     color:black;
-    margin: 1%;
+    margin-right:45%;
+    margin-left:45%;
     border: 1px solid black;
     text-decoration: none;
 }

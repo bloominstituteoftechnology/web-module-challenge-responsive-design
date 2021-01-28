@@ -97,15 +97,13 @@ img{
     padding: 1%;    
 }
 
-.footer h4{
-    position: relative;
-    left: 40%;
+#footer-h4{
+    width: 768px;
     font-size: xx-large;
+    align-items: center;
 }
 
 .footer a{
-    position: relative;
-    left: 45%;
     text-decoration: none;
     border-radius: 8px;
     background-color: white;
@@ -128,9 +126,25 @@ button{
 }
 
 @media only screen and (max-width: 767px) {
-    .gallery1 .gallery2 .galleryimg {
+    .gallery1 {
         width: 100%;
         display: flex;
         flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .gallery2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .galleryimg {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }

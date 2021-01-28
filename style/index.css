@@ -1,39 +1,19 @@
 body{
     width: 768px;
-    background: rgb(2,0,36);
+    justify-content: center;
     background: linear-gradient(180deg, rgba(2,0,36,1) 20%, rgba(93,0,129,1) 80%, rgba(0,212,255,1) 100%);
 }
-.header {
+.header{
     width: 768px;
     padding: 1%;
 }
 
-@media only screen and (max-width: 600px) {
-    .header {
-      width: 60%;
-    }
-}
-@media only screen and (max-width: 300px) {
-    .header {
-    width: 40%;
-    }
-}
 #headertext{
     color: white;
     font-family: 'Source Code Pro', monospace;
     font-size:40px;
     width: 768px;
     padding: 0.25%;
-}
-@media only screen and (max-width: 600px) {
-    .headertext {
-      width: 60%;
-    }
-}
-@media only screen and (max-width: 300px) {
-    .headertext {
-    width: 40%;
-    }
 }
 
 .headerlink{
@@ -43,18 +23,8 @@ body{
     font-family: 'Source Code Pro', monospace;
     color: rgb(199, 21, 74);
     padding: 5px;
-    margin-right: 2%;
-    justify-content: center;
-}
-@media only screen and (max-width: 600px) {
-    .headerlink {
-      width: 60%;
-    }
-}
-@media only screen and (max-width: 300px) {
-    .headerlink {
-    width: 40%;
-    }
+    display: inline-flex;
+    justify-content: space-evenly;
 }
 
 .toplink{
@@ -68,36 +38,38 @@ body{
 
 .topproject{
     width:800px;
-    padding:1%;
     display: inline-flex;
-    border: 1%;
+    justify-content: space-evenly;
     border-color: white;
+    padding: 5% 0%;
 }
 
 .topproject img{
-    width: 400px;
+    width: 45%;
     border-radius: 12px;
 }
 
 .topdiv{
     font-family: 'Source Code Pro', monospace;
     color: gold;
-    padding: 7%;
-    font-size: large;   
+    font-size: large; 
+    width: 50%;  
 }
 
-.gallery1 {
-    width:auto;
+.gallery1{
+    width:768px;
     display: inline-flex;
     align-self: flex-start;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     padding: 1%;
     color: gold;
     font-family: 'Source Code Pro', monospace;
 }
-.gallery2 {
-    width:auto;
+
+.gallery2{
+    width:768px;
     display: inline-flex;
     align-self: flex-start;
     flex-direction: row;
@@ -107,12 +79,15 @@ body{
     color: gold;
     font-family: 'Source Code Pro', monospace;
 }
-.galleryimg img{
-    width:90%;
-    height:90%;
-    border-radius: 8px;
+.galleryimg{
     flex-direction: column;
     align-items: baseline;
+    justify-content: space-between;
+}
+
+img{
+    width:250px;
+    border-radius: 8px;
 }
 
 .footer{
@@ -137,10 +112,25 @@ body{
     font-family: 'Source Code Pro', monospace;
     color: rgb(199, 21, 74);
     padding: 5px;
-
 }
 
 button{
     width: 125px;
     height: 50px;
+}
+
+@media only screen and (max-width: 767px) {
+    .topproject {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .gallery1 .gallery2 .galleryimg {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
 }

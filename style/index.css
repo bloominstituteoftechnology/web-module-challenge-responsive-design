@@ -1,0 +1,226 @@
+/* Add CSS styling here */
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Montserrat:wght@400;500&family=Questrial&display=swap');
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	20
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+* {
+	/*border: 1px solid black; */
+  	
+  	padding:0;
+  	margin:0;
+  	font-family: Questrial;
+  	text-decoration:  none;
+}
+h1 {
+	text-align: center;
+	font-size: 3vw;
+	margin: 2vw;
+	margin-top: 4vw;
+	font-family: Questrial;
+}
+h2 {
+	text-align: center;
+	font-size: 2.4vw;
+	color: maroon;
+	margin-top: 3vw;
+	font-family: Questrial;
+	
+}
+
+.flex-nav {
+	display: flex;
+	align-items: center;
+	flex-direction:row ;
+	margin: auto;
+	max-height: 5vw;
+	min-height: 1vw;
+	align-content: center;
+	justify-content: center;
+  text-decoration:  none;
+
+}
+.flex-item {
+	font-size: 1.2rem;
+	font-family: Questrial;
+	text-decoration:none;
+	text-align: center;
+	border: 2px solid black;
+	width: 120px;
+	height: 20px;
+	align-items: center;	
+	background: darkgrey;
+	align-content: center;
+	transition: .8s;
+	text-decoration:  none;
+	
+}
+.current {
+	color: darkgrey;
+	background: white;
+}
+.flex-nav :hover {
+	color: darkgrey	;
+	background: white;
+	transition: .8s;
+	text-decoration:  none;
+}
+a .flex-item  {
+	color: white;
+	text-align: center;
+	text-decoration:  none;
+	align-content: center;
+	height: 100%;
+	
+}
+a .current {
+	color: maroon;
+	background: white;
+}
+
+
+
+.descript {
+	font-family: Questrial;
+	margin-left: 10vw;
+	margin-right: 10vw;
+	margin-top: 4vw;
+	margin-bottom: 4vw;
+}
+.main-img {
+	max-height:300px;
+	width: 100vw;
+	overflow: hidden;
+}
+.flex-gal {
+	display: flex;
+
+}
+.flex-gal-item {
+	height: 50vw;
+	width: 20vw;
+	margin: 2px;
+	text-anchor: center;
+	align-items: baseline;
+	overflow: hidden;
+}
+.flex-gal-text {
+	height: 50vw;
+	width: 20vw;
+	margin: 2px;
+	text-align:  center;
+	justify-content: center;
+	align-items: baseline;
+	padding-top: 25%;
+	padding-left: 5%;
+	padding-right: 5%;
+	font-family: Questrial;
+}
+
+
+
+
+@media (max-width:800px){
+	h1 {
+		justify-content: center;
+	
+	}
+	.flex-nav {
+		display:flex;
+		flex-direction: column;
+		margin-left: 40vw;
+		margin-right: 42vw;
+		max-height: 20vw;
+		min-height: 1vw;
+		/*min-width: 25vw; */
+	}
+	.flex-item {
+		font-size: 1rem;
+	}
+	.main-img {
+		max-height:250px;
+		width: 100vw;
+		overflow: hidden;
+	}
+	.flex-gal {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-content: space-between;
+	}
+	.flex-gal-item {
+		height: 80vw;
+		width: 49vw;
+		margin: 2px;
+		text-anchor: center;
+		align-items: baseline;
+	}
+	.flex-gal-text {
+		display: inline-block;
+		width: 100%;
+	
+	}
+
+}
+@media (max-width:500px){
+h1 {
+		justify-content: center;
+	
+	}
+	.flex-nav {
+		display:flex;
+		flex-direction: column;
+		margin-left: 40vw;
+		margin-right: 42vw;
+		max-height: 20vw;
+		min-height: 1vw;
+		/*min-width: 25vw; */
+	}
+	.flex-item {
+		font-size: .7rem;
+	}
+	.main-img {
+		max-height:200px;
+		width: 100vw;
+		overflow: hidden;
+	}
+	.flex-gal {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-content: space-around;
+	}
+	.flex-gal-item {
+		height: 80vw;
+		width: 48vw;
+		margin: 2px;
+		text-anchor: center;
+		align-items: baseline;
+	}
+	.flex-gal-text {
+		display: inline-block;
+		width: 100%;
+	
+	}
+
+}
+
+
+

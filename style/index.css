@@ -243,7 +243,11 @@ h1{
 }
 
 
-@media only screen and (max-width: 600px) {
+
+
+@media (max-width: 600px) {
+ 
+  
   .upper{
     display:flex;
     flex-direction: column;
@@ -380,4 +384,47 @@ h1{
     
   }
   
+}
+
+@media (min-width: 768px)
+{
+
+  nav{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    background-color: black;
+    opacity: .6;
+    border-radius: 10px;
+    border: 2px solid grey;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+
+  nav a{
+    font-size: 1rem;
+    border: 2px solid black;
+    width: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: black;
+    text-shadow: grey;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+
+  .upper{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .middle-boxes {
+    border: 2px solid red;
+    display:flex;
+    justify-content: center;
+  }
 }

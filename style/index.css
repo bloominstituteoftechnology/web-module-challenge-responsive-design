@@ -95,16 +95,11 @@ select {
 /* Add CSS styling here */
 .upper-container{
   background-color: gray;
-  border: 2px solid red;
 }
 
-@media only screen and (max-width: 600px) {
-  .upper{
-    border: 2px solid red;
-    display:flex;
-    flex-direction: column;
-  }
-}
+
+
+
 
 nav {
   /* display: flex; 
@@ -247,3 +242,142 @@ h1{
   background: gray;
 }
 
+
+@media only screen and (max-width: 600px) {
+  .upper{
+    display:flex;
+    flex-direction: column;
+  }
+
+  .name{
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .about-me h1{
+    text-align: center;
+    width: 100vw;
+    padding-top: 2rem;
+  }
+
+  .upper-container{
+    background-color: none;
+    background: none;
+  }
+
+  .projects{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+  }
+
+  .projects a{
+    width: 50%;
+    opacity: .4;
+    font-weight: 1000;
+    background-color: black;
+  }
+
+  .text p{
+    background-color: black;
+    /* background: none; */
+    /* color: white;
+    font-size: 2rem;
+    text-align: center;
+    opacity: .1; */
+    font-weight: 100;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    
+  }
+
+  .text {
+    border-radius: 3rem;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    width: 100vw;
+    background-color: black;
+    /* background: none; */
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    opacity: .5;
+    color: white;
+    padding: 3rem;
+      }
+
+  body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 3s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  nav{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    background-color: black;
+    opacity: .6;
+    border-radius: 10px;
+    border: 2px solid grey;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+
+  nav a{
+    font-size: 1rem;
+    border: 2px solid black;
+    width: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: black;
+    text-shadow: grey;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+
+  footer{
+    background-color: black;
+    opacity: .6;
+    
+  }
+
+  .footer-button{
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+
+  }
+  .footer-button a{
+    font-size: 1.5rem;
+    border: 2px solid grey;
+    width: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: black;
+    text-shadow: grey;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+  }
+  
+}

@@ -245,14 +245,36 @@ h1{
 
 
 
-@media (max-width: 600px) {
+
+
+
+
+@media (max-width: 600px){
  
-  
   .upper{
     display:flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 
+  .upper-container{
+    background-color: none;
+    background: none;
+  }
+
+  .about-me{
+    display:flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+  .about-me p{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
   .name{
     text-align: center;
     font-size: 3rem;
@@ -274,14 +296,33 @@ h1{
     background: none;
   }
 
-  .projects{
+   .projects{
     display: flex;
     justify-content: center;
-    width: 100vw;
+  } 
+
+  .middle-boxes{
+    display: flex;
+    justify-content: center;
   }
 
+  .middle-boxes img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    /* max-width: 50%;
+     */
+     height: 20rem;
+     width: 20rem;
+      }
+
+      /* .projects{
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+      } */
+
   .projects a{
-    width: 50%;
     opacity: .4;
     font-weight: 1000;
     background-color: black;
@@ -308,7 +349,6 @@ h1{
     align-items: center;
     width: 100vw;
     background-color: black;
-    /* background: none; */
     color: white;
     font-size: 2rem;
     text-align: center;
@@ -386,7 +426,7 @@ h1{
   
 }
 
-@media (min-width: 768px)
+@media (max-width: 1020px)
 {
 
   nav{
@@ -422,9 +462,127 @@ h1{
     text-align: center;
   }
 
+  .about-me{
+    display:flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+  .about-me p{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
   .middle-boxes {
-    border: 2px solid red;
     display:flex;
     justify-content: center;
   }
+
+  .name{
+    text-align: center;
+  }
+
+  h1{
+    font-size: 2rem;
+  }
+
+  .text p{
+    background-color: black;
+    /* background: none; */
+    /* color: white;
+    font-size: 2rem;
+    text-align: center;
+    opacity: .1; */
+    font-weight: 100;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    
+  }
+
+  .text {
+    border-radius: 3rem;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    opacity: .5;
+    color: white;
+    padding: 3rem;
+      }
+
+  body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 3s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .upper-container{
+    background-color: none;
+    background: none;
+  }
+
+  .projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+  }
+
+  .projects a{
+    width: 50%;
+    opacity: .4;
+    font-weight: 1000;
+    background-color: black;
+  }
+
+  .middle-boxes img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    margin: 2rem;
+    /* max-width: 50%;
+     */
+     height: 20rem;
+     width: 20rem;
+      }
+      footer{
+        background-color: black;
+        opacity: .6;
+        
+      }
+    
+      .footer-button{
+        background-color: black;
+        color: white;
+        font-size: 2rem;
+    
+      }
+      .footer-button a{
+        font-size: 1.5rem;
+        border: 2px solid grey;
+        width: auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        background-color: black;
+        text-shadow: grey;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        
+      }
+
 }

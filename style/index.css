@@ -10,7 +10,7 @@ html{
     font-size: 62.5%;
 }
 header{
-    background-color:darkgray;
+    background-color:rgba(236, 231, 231, 0.781);
 }
 h1{
     font-size:7rem;
@@ -24,7 +24,7 @@ h2{
 .links a{ /* Navigation buttons*/
     font-size: 3rem;
     color:black;
-    background-color: peachpuff;
+    background-color: deepskyblue;
     padding: .7%;
     border: 1px solid black;
     text-decoration: none;
@@ -102,7 +102,7 @@ text-align:center;
 }
 footer{
     text-align:center;
-    background-color:darkgray;
+    background-color:rgba(236, 231, 231, 0.781);;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -115,12 +115,13 @@ footer h2{
 footer a{
     font-size:2.4rem;
     padding: 0.1%;
-    background-color:peachpuff;
+    background-color:grey;
     color:black;
     margin-right:45%;
     margin-left:45%;
     border: 1px solid black;
     text-decoration: none;
+    color:deepskyblue;
 }
 @media(max-width:1920px){ /*widescreen view*/
 .headingText p{

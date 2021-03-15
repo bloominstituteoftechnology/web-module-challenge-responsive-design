@@ -1,0 +1,299 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Main */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+button:focus {
+  outline: 0;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+/* Heading */
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  text-shadow: 0 0 5px #808080;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 10px 30px;
+  box-shadow: 0 0 10px #000000;
+}
+
+/* Identification */
+
+#Home header nav .Home {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
+#Home header nav .Home:hover {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+/* Navbar */
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+header div {
+  margin: 0 auto;
+  margin-top: 2%;
+}
+
+header nav {
+  margin: 0 auto;
+  margin-top: 2%;
+}
+
+header nav a {
+  padding: 5px 15px;
+  box-shadow: 0 0 5px #000000;
+  color: #000000;
+  background-color: #FFFFFF;
+  transition: ease-in-out 0.25s;
+}
+
+header nav:hover a {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
+header nav a:hover {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+/* Project */
+
+.Content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Content .Container {
+  width: 100%;
+  margin: 0 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Container img {
+  margin: 4% 0%;
+  box-shadow: 0 0 10px #000000;
+  width: 100%;
+}
+
+.Container h2 {
+  position: absolute;
+  margin-bottom: 100px;
+}
+
+.Container button {
+  font-size: 24px;
+  position: absolute;
+  margin-top: 100px;
+  border: none;
+  padding: 5px 15px;
+  box-shadow: 0 0 10px #000000;
+  transition: ease-in-out 0.25s;
+}
+
+/* Gallery */
+
+.Gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.Gallery .Container-2 {
+  width: 100%;
+  margin: 0 10%;
+}
+
+.Container-2 + .Container-2 {
+  margin-left: -5%;
+}
+
+.Container-2 p {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 10%;
+}
+
+.Container-2 img {
+  margin-top: 10%;
+  box-shadow: 0 0 10px #000000;
+  width: 100%;
+}
+
+
+/* Footer */
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #000000;
+  padding: 5%;
+}
+
+footer button {
+  font-size: 24px;
+  border: none;
+  padding: 5px 15px;
+  color: #000000;
+  background-color: #FFFFFF;
+  transition: ease-in-out 0.25s;
+}
+
+button:hover {
+  color: #FFFFFF;
+  background-color: #808080;
+}
+
+/* iPhone: 360×640 */
+
+@media(max-width: 500px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  body {
+    font-size: 16px;
+  }
+
+  header nav {
+    margin-top: 4%;
+    margin-bottom: 2%;
+  }
+
+  header nav a {
+    font-size: 16px;
+  }
+
+  .Container h2 {
+    position: absolute;
+    margin-bottom: 50px;
+  }
+
+  .Container button {
+    font-size: 16px;
+    margin-top: 50px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  footer button {
+    font-size: 16px;
+  }
+}
+
+@media(max-width: 800px) {
+  header nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .Gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .Gallery .Container-2 {
+    width: 50%;
+    margin: 0 10%;
+  }
+
+  .Container-2 p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10%;
+  }
+
+  .Container-2 img {
+    margin-top: 10%;
+    box-shadow: 0 0 10px #000000;
+    width: 100%;
+  }
+}

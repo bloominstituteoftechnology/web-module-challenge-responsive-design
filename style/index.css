@@ -86,6 +86,7 @@ header {
 	text-align: center;
 	width: 100%;
 	flex-wrap: nowrap;
+	background-color: rgba(30,129,176, 0.5);
 }
  
 .projects-flex {
@@ -94,9 +95,6 @@ header {
 	width: 100%;
 }
 
-.projects-flex img {
-	width: 60%;	
-}
 
 .profile-picture img {
 	width: 100%;
@@ -124,7 +122,7 @@ footer {
 }
 
 .header-flex {
-	width: 30%;
+	width: 100%;
 }
 
 .project-description {
@@ -159,3 +157,90 @@ footer {
 
 }
 
+/*Reponsive Styles*/
+/*Break points*/
+/*
+    max-width scales down, this is for desktop first design
+    min-width scales up, this is for mobile first design
+*/
+/*tablet*/
+@media(max-width: 800px) {
+    #about div {
+        width: 40%;
+    }
+     .shopText div {
+         width: 70%;
+     }
+}
+
+/*phone*/
+@media(max-width: 500px) {
+  nav {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  nav a {
+	  width: 50%;
+  }
+
+  .links {
+      width: 100%;
+  }
+
+  .logo {
+      width: 100%;
+  }
+
+  #home button {
+      display: none;
+  }
+
+  #about {
+      background-image: none;
+      background-color: #e2e3e5;
+      justify-content: center;
+  }
+
+  #about div {
+    margin-right: 0;
+    width: 80%;
+  }
+
+  .mobileSpecific {
+    flex-direction: column-reverse;
+  }
+
+  .shopText div {
+      width: 100%;
+  }
+
+  #contact h3 {
+      color: #FBFFFB
+  }
+
+  #contact h3 {
+      color: #FBFFFB
+  }
+
+  #contact h3 {
+      color: #FBFFFB
+  }
+
+  .logo img {
+      width: 15%;
+  }
+
+  .projects-flex {
+	  flex-flow: column wrap;
+	  justify-content: center;
+	  align-items: flex-start;
+	  width: 50%;
+  }
+
+  .projects-flex img {
+	  width: 50%;
+  }
+
+
+} 

@@ -1,0 +1,133 @@
+/**CSS Rest**/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    border:1px solid grey;
+}
+/*General Styles*/
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.6rem;
+    line-height:1.5;
+    background-color:#FBFFFB;
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#4f4f4f;
+}
+
+h1{
+    font-size: 5.6rem;
+    margin-top: 4%;
+}
+h2{
+    font-size: 4rem;
+}
+a{
+    text-decoration:none;
+    font-size: 2rem;
+    color:#266035;
+}
+
+/*HEADER STYLE*/
+
+header{
+    display: flex;
+    flex-flow:column wrap;
+    align-items: center;
+   padding-bottom:2%;
+}
+header nav{
+    display:flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    width: 100%;
+}
+nav a{
+    border:1px solid #4f4f4f;
+    color:#4f4f4f;
+}
+
+.firstBox {
+    /* margin-top:50px; */
+}
+.links {
+    width:100%;
+    display:flex;   
+}
+    
+
+.info {
+    display: flex;
+    align-items: center;
+}
+.middle {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.middle div{
+    width:21%;
+    margin:2% 0;
+}
+/*for mobile*/
+@media(max-width:500px){
+    img{
+        max-width:100%;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .links{
+        flex-direction: column;
+    }
+    .middle{
+        max-width:100%;
+        justify-content: space-around;
+    }
+    .middle div{
+        width:40%;
+    }
+}
+/*i need to do it for 1000px too!!*/

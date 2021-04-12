@@ -86,12 +86,11 @@ header {
 	text-align: center;
 	width: 100%;
 	flex-wrap: nowrap;
-	background-color: rgba(30,129,176, 0.5);
 }
  
 .projects-flex {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: center;
 	width: 100%;
 }
 
@@ -157,6 +156,15 @@ footer {
 
 }
 
+.project h3 {
+	font-weight: bold;
+}
+
+/* 
+	https://www.w3schools.com/cssref/playit.asp?filename=playcss_box-shadow&preval=20px%2020px%2050px%2015px%20grey
+*/
+
+
 /*Reponsive Styles*/
 /*Break points*/
 /*
@@ -165,17 +173,7 @@ footer {
 */
 /*tablet*/
 @media(max-width: 800px) {
-    #about div {
-        width: 40%;
-    }
-     .shopText div {
-         width: 70%;
-     }
-}
-
-/*phone*/
-@media(max-width: 500px) {
-  nav {
+      nav {
       flex-direction: column;
       align-items: center;
   }
@@ -232,15 +230,45 @@ footer {
   }
 
   .projects-flex {
-	  flex-flow: column wrap;
-	  justify-content: center;
-	  align-items: flex-start;
-	  width: 50%;
+	  flex-flow: row wrap;
+	  width: 100%;
   }
 
   .projects-flex img {
-	  width: 50%;
+	  width: 30%;
   }
 
+  .project {
+	  width: 50%;
+	  display: flex;
+	  flex-flow: column wrap;
+	  justify-content: center;
+	  align-items: center;
+	  text-align: center;
+	  padding: 10% 0;
+	  background-color: rgba(30,129,176, 0.0);
+  }
 
-} 
+  .project p {
+	  width: 80%;
+  }
+
+  .project img {
+		background-color: rgba(30,129,176, 0);
+		box-shadow: 20px 20px 50px 15px grey;
+		margin-bottom: 20%;
+  }
+
+  .project p:last-child {
+	margin-bottom: 30%;
+	}
+
+}
+
+@media(min-width: 801px) {
+	.project img {
+		width: 40%;
+		justify-content: center;
+		align-items: space-evenly;
+	}
+}

@@ -1,4 +1,4 @@
-/**CSS Rest**/
+/**CSS Reset**/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -111,6 +111,26 @@ nav a{
     width:21%;
     margin:2% 0;
 }
+/*tablet ADDED AFTER MY FIRST COMMIT*/
+@media(max-width:800px){
+    img{
+        max-width:100%;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .links{
+        flex-direction: column;
+    }
+    .middle{
+        max-width:100%;
+        justify-content: space-around;
+    }
+    .middle div{
+        width:40%;
+    }
+}
+
 /*for mobile*/
 @media(max-width:500px){
     img{
@@ -130,4 +150,16 @@ nav a{
         width:40%;
     }
 }
-/*i need to do it for 1000px too!!*/
+
+/*added AFTER FIRST COMMIT*/
+
+/*footer*/
+#contact{
+    display:flex;
+    flex-wrap:wrap;
+    color:#FBFFFB;
+    background-color:#266035;
+}
+#contact h2{
+    width:100%;
+}

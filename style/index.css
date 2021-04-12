@@ -137,7 +137,7 @@ footer {
 }
 
 .submit-button {
-	width: 20%;
+	width: 200px;
 	font-size: x-large;
 	background-color: rgb(182, 83, 83);
 	color: white;
@@ -232,6 +232,7 @@ footer {
   .projects-flex {
 	  flex-flow: row wrap;
 	  width: 100%;
+	  align-items: flex-start;
   }
 
   .projects-flex img {
@@ -253,16 +254,22 @@ footer {
 	  width: 80%;
   }
 
-  .project img {
-		background-color: rgba(30,129,176, 0);
-		box-shadow: 20px 20px 50px 15px grey;
-		margin-bottom: 20%;
-  }
-
-  .project p:last-child {
+ .project p:last-child {
 	margin-bottom: 30%;
 	}
 
+}
+
+@media(max-width: 500px) {
+	.header-flex p {
+		width:  60%;
+	}
+
+	.header-flex {
+		display: flex;
+		flex-flow: column wrap;
+		align-items: center;
+	}
 }
 
 @media(min-width: 801px) {
@@ -271,4 +278,5 @@ footer {
 		justify-content: center;
 		align-items: space-evenly;
 	}
+
 }

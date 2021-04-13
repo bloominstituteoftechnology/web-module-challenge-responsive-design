@@ -78,7 +78,11 @@ nav a{
 nav a:hover {
 	background-color: black;
 	color: white;
+	box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.5);
+
 }
+
+
 
 header {
 	display: flex;
@@ -133,8 +137,8 @@ footer {
 	align-items: center;
 	line-height: 2;
 	font-size: large;
-	padding: 2%;
 }
+
 
 .submit-button {
 	width: 200px;
@@ -243,9 +247,6 @@ footer {
 	  width: 50%;
 	  display: flex;
 	  flex-flow: column wrap;
-	  justify-content: center;
-	  align-items: center;
-	  text-align: center;
 	  padding: 10% 0;
 	  background-color: rgba(30,129,176, 0.0);
   }
@@ -276,7 +277,25 @@ footer {
 	.project img {
 		width: 40%;
 		justify-content: center;
-		align-items: space-evenly;
+	}
+
+	.project  {
+		width: 20%;
+
+	}
+
+	.project:hover {
+		color: white;
+		background-color: black;
+		z-index: 1000;
+	}
+
+	.project img:hover {
+		z-index: -1;
+	}
+
+	.project:first-child {
+		margin-left: 4%;
 	}
 
 }

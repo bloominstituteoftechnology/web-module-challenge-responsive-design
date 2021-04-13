@@ -42,8 +42,9 @@ table {
 	padding: 0;
 	margin: 0;
 	max-width: 100%;
-	border: 1px solid gray;
+	
 }
+
 /*gerneral styles*/
 
 html{
@@ -51,9 +52,12 @@ html{
 }
 
 body{
-	font-size: 1.6rem;
+	font-size: 1.5rem;
 	line-height: 1.5;
 	font-family: 'Cairo', sans-serif;
+	width: 90%;
+	margin: auto;
+	background-color: #eeeeee;;
 }
 h1, h2, h3{
 	font-family: 'Oswald', sans-serif;
@@ -67,16 +71,57 @@ h2{
 h3{
 	font-size: 2rem;
 }
+
 /*Header section styles*/
+
 header div{
 	margin: auto;
-	width: 90%;
 	text-align: center;
 }
-nav{
 
-header div{
+nav a{
+	background-color:#6996C6 ;
+	text-decoration: none;
+	color: black;
+	border-radius: 2%;
+}
+.links{
+	background-color:#6996C6 ;
+	padding:1%;
 	display: flex;
+	justify-content: space-evenly;
+}
+
+/*introduction section*/
+#intro div{
+	padding: 2%;
+	
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  	justify-content: center;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#images2 div{
+display: flex;
+flex-direction:row ;
+justify-content: space-around;
+}

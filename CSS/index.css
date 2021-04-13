@@ -146,7 +146,14 @@ justify-content: center;
 }
 
 @media only screen and (max-width: 500px) {
-    header, nav, a{
+    nav a{
+        display: flex;
+        justify-content: space-around;
+        color:#4f4f4f;
+        text-decoration: none;
+    }
+
+    header, nav{
         display: flex;
         flex-direction: column;
         justify-content: center;

@@ -16,9 +16,8 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
+	margin: 1%;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -42,13 +41,31 @@ border:1px solid grey;
 
 header{
 	background-color:#D8BFD8;
-	height:15vh;
-	margin-bottom: 3%;
+	height:10vh;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a{
+    color: #4f4f4f;
+    text-decoration: none;
+    justify-content: space-around;
+}
+
+nav a:hover{
+    color:seagreen;
+    transition: 2s;
+}
+
+nav a:visited{
+    color: #4f4f4f;
 }
 
 #top{
 	display: flex;
-	margin-bottom: 3%;
 }
 
 #top .classOne img{
@@ -57,37 +74,88 @@ header{
 
 .classOne{
 	width:65%;
-	margin-left:10%;
 }
 
 .classTwo{
 	width:75%;
-	margin-left:5%;
-	margin-right:10%;
 }
 
-.bottomDiv{
+#bottomDiv{
 	display: flex;
 	flex-flow:row wrap;
 	justify-content: center;
 }
 
-.bottomDiv div{
+#bottomDiv div{
 	width:24%;
 	justify-content:space-between;
 	padding: 1%;
 }
 
 footer{
-display: inline-block;
-justify-content: center;
+display: flex;
+flex-direction: column;
 background-color:#D8BFD8;
 height: 15vh;
 width: 100%;
+align-items: center;
+}
+
+footer div p{
+justify-content: center;
 }
 
 @media only screen and (max-width: 800px) {
     body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    header nav{
+        width:50%;
+    }
+
+    #top{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    #bottomDiv{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #bottomDiv div{
+        width:85%;
+    }
+
+    footer div p{
+        width: 100%;
     }
 }
+
+@media only screen and (max-width: 500px) {
+    header, nav, a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #4f4f4f;
+    }
+}
+
+
+
+
+

@@ -1,0 +1,273 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol,
+ul {
+    list-style: none;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* ------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------ */
+html,body{
+    width: 100%;
+    margin: 0% auto;
+    padding: 0% auto;
+    margin-top: 1%;
+    background: rgb(239, 239, 239);
+}
+body{
+    width: 90%;
+}
+img{
+    width: 600px;
+}
+h1{
+    font-size: 3rem;
+    padding-bottom: 1%;
+}
+button{
+    width: 5%;
+    padding: 1%;
+    font-size: 120%;
+    border: none;
+    background: rgb(220, 220, 220);
+    border-radius: 50%;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+}
+nav a{
+    padding: 1%;
+    text-decoration: none;
+    color: white;
+    background: #2f86eb;
+    box-sizing: border-box;
+    width: 10%;
+    height: 10%;
+    border: black solid 1px;
+}
+.accessible{
+    font-size: 110%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.accessible h3{
+    padding: 1%;
+}
+.rows{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin: 0%;
+}
+.rows img{
+margin: 1%;
+}
+.row-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    word-spacing: 3px;
+    width: 100%;
+}
+.row-1 h2{
+    font-size: 150%;
+    text-align: center;
+    padding: 2%;
+    margin: 0% auto;
+    width: 50%;
+}
+.row-1 p{
+    font-size: 120%;
+    text-align: center;
+    padding-bottom: 2%;
+    margin: 0% auto;
+    width: 50%;
+}
+.row-2{
+    width: 100%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.row-3, .row-4{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+}
+.row-5{
+    width: 100%;
+    padding: 3%;
+    font-size: 120%;
+}
+footer{
+    position: relative;
+    padding: 4%;
+    margin: 0px;
+    background: #2f86eb;
+}
+.footer{
+    text-align: center;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+/* Phone View */
+@media only screen and (max-width: 480px) {
+   
+}
+/* Laptop View */
+@media only screen and (max-width: 1366px) {
+   
+}
+/* Widescreen View */
+@media only screen and (max-width: 1920px) {
+   
+}

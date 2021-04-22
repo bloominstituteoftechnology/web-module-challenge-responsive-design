@@ -131,6 +131,10 @@ table {
 /* ------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------ */
+#code{
+display: none;
+color: yellow;
+}
 html,body{
     width: 100%;
     margin: 0% auto;
@@ -157,6 +161,9 @@ button{
     background: rgb(220, 220, 220);
     border-radius: 50%;
     margin: 1vh;
+}
+button:hover{
+    background: white;
 }
 header{
     display: flex;
@@ -269,6 +276,9 @@ footer{
 }
 /* Phone View-Making Menu Vertical And Font Bigger */
 @media only screen and (max-width: 500px) {
+    #code{
+        color: red;
+    }
     .header{
         display: flex;
         flex-direction: column;
@@ -279,8 +289,8 @@ footer{
        align-items: center;
    }
    nav a{
-       width: 5rem;
-       padding: 5%;
+       width: 6rem;
+       padding: 4%;
    }
    .row-1, .row-1 p, .row-1 h2{
        width: 100%;
@@ -292,13 +302,19 @@ footer{
        font-size: 1rem;
    }
    .accessible button{
-    padding: 3%;
+    padding: 5%;
     margin: 1%;
     width: 15%;
+}
+button{
+    font-size: 15px;
 }
 }
 /* Tablet View-Making Font Bigger */
 @media only screen and (max-width: 800px) {
+    #code{
+        color: blue;
+    }
     .row-1, .row-1 p, .row-1 h2{
         width: 90%;
         margin: 0% auto;
@@ -315,6 +331,9 @@ footer{
  }
 }
 /* Widescreen View-Font Bigger */
+#code{
+    color: white;
+}
 @media only screen and (min-width: 2000px) {
     h1{
         font-size: 7vh;

@@ -9,29 +9,30 @@
     </head>
     <header>
         <div class="header">
-            <h1>Jamaria Sims</h1>
+            <h1 id="code">Main</h1>
+            <h1 id="text1">Jamaria Sims</h1>
             <nav>
-                <a href="">Home</a>
-                <a href="">About</a>
-                <a href="">Contact</a>
-                <a href="">Projects</a>
+                <a id="text2" href="">Home</a>
+                <a id="text2" href="">About</a>
+                <a id="text2" href="">Contact</a>
+                <a id="text2" href="">Projects</a>
             </nav>
         </div>
     </header>
     <body>
            <div class="rows">
             <div class="row-1">
-                <h2>Introducing My Site</h2>
-                <p>
+                <h2 id="text4">Introducing My Site</h2>
+                <p id="text3">
                     Welcome, I'm Jamaria Sims a coding wizard that's on a mission to change the world line by line. I'm currently studying at Lambda hoping to land a job in full-stack development. Coding to me comes easy, it's all just a big puzzle that can create anything you can dream of. This page is just a snippet of the magic I contain.
                 </p> 
                 <div class="accessible">
-                    <h3>Text Size</h3>
-                    <button>+</button>
-                    <button>-</button> 
-                    <h3>Use Grayscale</h3>
-                    <button>on</button>
-                    <button>off</button>
+                    <h3 id="text4">Text Size</h3>
+                    <button onclick="changeTextBigger()">+</button>
+                    <button onclick="changeTextSmaller()">-</button> 
+                    <h3 id="text4">Use Grayscale</h3>
+                    <button onclick="grayscaleOn()">on</button>
+                    <button onclick="grayscaleOff()">off</button>
                 </div>
             </div>
             <div class="row-2">
@@ -46,13 +47,14 @@
                 <img src="assets/7.jpg" class="project-img" alt="A picture of someone holding sparkles while above the water while they are underneath the water." />
             </div>
             <div class="row-5">
-                <p class="project-info">Some text will go here describing all of the projects above</p>
+                <p id="text3" class="project-info">Some text will go here describing all of the projects above</p>
             </div>
-           </div>    
+           </div> 
+           <script src="index.js"></script>   
     </body>
     <footer>
         <div class="footer">
-            <a href="">Contact Me</a>
+            <a id="text2" href="">Contact Me</a>
         </div>
     </footer>
 </html>

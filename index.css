@@ -267,8 +267,8 @@ footer{
     color: white;
     font-size: 2rem;
 }
-/* Phone View */
-@media only screen and (max-width: 480px) {
+/* Phone View-Making Menu Vertical And Font Bigger */
+@media only screen and (max-width: 500px) {
     .header{
         display: flex;
         flex-direction: column;
@@ -297,7 +297,7 @@ footer{
     width: 15%;
 }
 }
-/* Tablet View */
+/* Tablet View-Making Font Bigger */
 @media only screen and (max-width: 800px) {
     .row-1, .row-1 p, .row-1 h2{
         width: 90%;
@@ -314,7 +314,7 @@ footer{
      width: 8%;
  }
 }
-/* Widescreen View */
+/* Widescreen View-Font Bigger */
 @media only screen and (min-width: 2000px) {
     h1{
         font-size: 7vh;

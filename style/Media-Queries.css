@@ -1,0 +1,48 @@
+@media only screen and (max-width: 500px){
+    .container{
+        max-width: 100%;
+    }
+    .my_name{
+        font-size: 2.25em;
+    }
+    .navigation ul li a{
+        display: flex;
+        justify-content: center;
+        width: 60%;
+        margin: 10px auto;
+    }
+    .first_section h2 {
+        font-size: 1.5em;
+    }
+    .first_section p{
+        font-size: 1em;
+    }
+    .img_row{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .img_row img{
+        width: 50%;
+        height: 50%;
+        padding: 3%;
+    }
+    .img_row img:hover{
+        background-color: black;
+        z-index: .7;
+        border-radius: 10px;
+    }
+    .end_text{
+        display: block;
+    }
+    .project_btn{
+        font-size: 1em;
+    }
+    .project_btn a{
+        border: 1px solid darkgray;
+        border-radius: 15px;;
+    }
+
+
+}

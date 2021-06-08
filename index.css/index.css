@@ -1,0 +1,132 @@
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.8rem;
+    line-height:1.5;
+    color:white;
+    background-color:red;
+    font-family: 'Bebas Neue', 'cursive';
+}
+a{
+    font-family: 'Bebas Neue', 'cursive';
+    text-decoration: none;
+    color:black;
+}
+h1, h2{
+    font-family: 'Bebas Neue', 'cursive';
+    color:black;
+    text-align:center;
+}
+h1{
+    color:white;
+    font-size:5rem;
+}
+button{
+    background-color:black;
+    padding:3% 4%;
+    font-size:1.8rem;
+    font-family: 'Bebas Neue', 'cursive';
+    color:white;
+    align-items: center;
+}
+section{
+    padding:4% 0%;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    top:0;
+    width: 100%;
+    z-index:999;
+    background-color:white;
+}
+#Top{
+    text-align: center;
+
+}
+#photos .firstpic{
+    background-image:url('../Wireframes/photo1.png')
+}
+#photos .secondpic{
+    background-image:url('../Wireframes/photo2.png')
+}
+#photos .thirdpic{
+    background-image:url('../Wireframes/photo3.png')
+}
+#photos .fourthpic{
+    background-image:url('../Wireframes/photo4.png'')
+}
+#photos .fifthpic{
+    background-image:url('../Wireframes/photo5.png')
+}
+#contact {
+    display:flex;
+    flex-wrap;wrap;
+    color:Black;
+    blackground color:red;
+
+}
+#contact button {
+    align-items:center; ;
+}
+#contsct {
+    width:100%;
+    text-align:center;
+    Margin-right:10%;
+}@media(max-width: 800px){
+    /*if the screen size is 800px or smaller apply these styles*/
+}
+
+@media(max-width: 500px){
+    /*if the screen size is 500px or smaller apply these styles*/
+    nav{
+        flex-direction:column;
+    }
+    .links{
+        width:80%;
+    }
+    #Top{
+        background-image:none;
+        background-color:#e0e1e3;
+        justify-content: center;
+        height:auto;
+    }
+    #Top{
+        margin:0;
+        width:80%;
+    }
+    /*shop section styles*/
+    #photos{
+        justify-content: center;
+    }
+    #photoos{
+        height:60vh;
+    }
+    #photos{
+        width:90%;
+    }
+    .firspic{
+        order:0;
+    }
+    .secondpic{
+        order:1
+    }
+    .thirdpic{
+        order:2;
+    }
+    .fourthpcr{
+        order:3;
+    }
+    .fifthpic{
+        rder:4;
+    }
+    
+    #contact{
+        flex-direction:column;
+    }
+    button{
+        align-items: center;
+    }

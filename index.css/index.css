@@ -1,0 +1,34 @@
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.8rem;
+    line-height:1.5;
+    color:white;
+    background-color:red;
+    font-family: 'Bebas Neue', 'cursive';
+}
+a{
+    font-family: 'Bebas Neue', 'cursive';
+    text-decoration: none;
+    color:black;
+}
+h1, h2{
+    font-family: 'Bebas Neue', 'cursive';
+    color:black;
+    text-align:center;
+}
+h1{
+    color:white;
+    font-size:5rem;
+}
+button{
+    background-color:black;
+    padding:3% 4%;
+    font-size:1.8rem;
+    font-family: 'Bebas Neue', 'cursive';
+    color:white;
+}
+section{
+    padding:4% 0%;
+}

@@ -1,0 +1,133 @@
+header {
+    background-color: lightgrey;
+    padding: 5%;
+    margin-bottom: 4%;
+    border: 1px black solid;
+}
+
+footer {
+    background-color: lightgrey;
+    text-align: center;
+    padding: 2%;
+    border: 1px black solid;
+}
+
+.topsection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.description {
+    padding: 2%;
+    width: 50%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 2%;
+}
+
+.portfolio-element {
+    text-align: center;
+}
+
+button {
+    background-color: white;
+    color:black;
+    border: solid black 1px;
+    padding: 1% 2%;
+}
+
+button:hover {
+    background-color: coral;
+}
+
+button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background-color: lightblue;
+}
+
+@media (max-width: 800px){
+    header {
+        text-align:center;
+    }
+
+    header nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header nav button{
+        width: 25%;
+        align-self: center;
+    }
+
+    .topsection {
+        display: flex;
+        flex-direction: column;
+    }
+    .topsection .description {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        text-align: center;
+    }
+    
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .row .portfolio-element {
+        width: 45%;
+        height: 45%;
+
+    }
+
+    
+}
+
+@media (max-width: 500px){
+    header {
+        text-align:center;
+    }
+
+    header nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header nav button{
+        width: 25%;
+        align-self: center;
+    }
+
+    .topsection {
+        display: flex;
+        flex-direction: column;
+    }
+    .topsection .description {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        text-align: center;
+    }
+    
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .row .portfolio-element {
+        width: 45%;
+        height: 45%;
+
+    }
+
+}

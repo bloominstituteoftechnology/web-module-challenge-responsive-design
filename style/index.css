@@ -1,0 +1,302 @@
+/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+    font-family: 'Anton', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+html {
+    font-size: 62.5%;
+
+}
+
+body {
+    line-height: 1.5;
+    font-size: 1.5rem;
+    border: 200px solid #93B5C6;
+    border-bottom: 0px;
+    border-top: 0px;
+}
+
+
+.table {
+    display: flex;
+    background-color: #93B5C6;
+}
+.table img {
+    margin: auto;
+    display: none;
+}
+
+tittle {
+    width: 50%;
+    font-size: 4rem;
+}
+
+.favicon img {
+    margin-left: 90%;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    height: 10vh;
+    background-color: #C9CCD5;
+    align-items: center;
+}
+header h1 {
+    font-size: 3rem;
+    width: 100%;
+    margin-left: 3%;
+}
+
+header nav {
+    display: flex;
+    width: 30%;
+    margin-left:2%;
+}
+
+
+nav a {
+    color: white;
+    background-color: #93B5C6;
+    text-decoration: none;
+    text-align: center;
+    margin:3%;
+    padding:1%;
+}
+
+nav a:hover {
+    transform: scale(130%, 130%);
+    background-color: white;
+    color: #93B5C6;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+.top {
+    display: flex;
+    width: 100%;
+}
+.top div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    background-color: #FFE3E3;
+    
+}
+
+.info h2 {
+    font-size: 3rem;
+}
+.info p {
+    margin:2%;
+    font-size: 2rem;
+}
+.info a {
+    width: 50%;
+}
+
+.bottom {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+.bottom div {
+    width:20%;
+    margin:2% 1%;
+    overflow: hidden;
+    text-align: center;
+}
+.bottom div img {
+    height: auto;
+    width: 100%;
+}
+footer {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #C9CCD5;
+}
+footer div {
+    width: 100%;
+}
+footer h3 {
+    width: 100%;
+    margin:3% 0;
+    font-size: 3rem;
+}
+
+.contact {
+    color: white;
+    background-color: #93B5C6;
+    width: 25%;
+    margin: auto;
+    margin-bottom: 10%;
+    font-size: 2rem;
+}
+
+.contact:hover {
+    color: #93B5C6;
+    background-color: white;
+    transform: scale(110%, 110%);
+}
+
+.bottom div:hover {
+    transform: scale(120%, 120%);
+    background-color: #93B5C6;
+}
+
+.projects-button {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    width: 15%;
+    background-color: #93B5C6;
+}
+
+.projects-button:hover {
+    transform: scale(120%, 120%);
+}
+
+
+
+/* tablet styling */
+
+@media (max-width: 800px) {
+    body {
+        border: 100px solid #93B5C6;
+    }
+    .table img {
+        display: none;
+    }
+    tittle {
+        width: 100%;
+    }
+    .table {
+        display: flex;
+        justify-content: center;
+    }
+
+    header {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 25vh;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    header h1 {
+        width: 70%;
+        margin: 0% 0%;
+    }
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    nav a {
+        width: 100%;
+    }
+
+    .top {
+        display: inline-block;
+    }
+
+    .top div {
+        width: 100%;
+    }
+
+    .bottom div {
+        width: 40%;
+    }
+    .contact {
+        width: 35%;
+    }
+
+}
+
+/* cellphone styling */
+
+@media (max-width: 500px) {
+    body {
+        border: 50px solid #93B5C6;
+    }
+    header {
+        display: flex;
+        width: 100%;
+        height: 25vh;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    header h1 {
+        padding-left: 10%;
+        width: 70%;
+        margin: 0% 0%;
+    }
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+   .contact {
+       width:25%;
+   }
+}

@@ -4,7 +4,7 @@ In this module challenge you will continue working on your portfolio website to 
 
 ## User Interface and Git
 
-## Responsive Design
+## Responsive Design  
 
 ## Objectives
 

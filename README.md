@@ -9,6 +9,9 @@ In this module challenge you will continue working on your portfolio website to 
 ## Objectives
 
 - describe the differences in fixed, fluid, adaptive, and responsive layouts
+Answer:
+Fixed has a static position on the browser. This has a set amount of pixels. As the screen changes 
+Fluid 
 - implement media queries in a project.
 - describe how using scalable units for font sizes impacts accessibility and why designing accessible web pages is important
 
@@ -39,6 +42,7 @@ git checkout -b <firstName-lastName-day2>
 Use the checklist below to guide your work today. Your final product should be presentable at mobile, tablet and a desktop-width.
 
 - [ ] Insert a viewport meta tag into the head of the project with these html attributes: content="width=device-width, initial-scale=1"
+<meta name="viewport" content="width=device-width, initial-scale=1">
 - [ ] Introduce max-width media queries into your project at 800px and 500px
 - [ ] Add accessability features to your webpage
 - [ ] Design should closely follow the [mobile wireframe](Wireframes/) given for your chosen layout

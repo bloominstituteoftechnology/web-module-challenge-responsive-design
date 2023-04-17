@@ -118,7 +118,12 @@ button a{
 }
 
 @media(max-width: 800px){
-
+    .row div {
+        width: 20%;
+    }
+    .top-section img {
+        width: 40%;
+    }
 }
 
 @media(max-width: 500px){
@@ -150,5 +155,16 @@ button a{
 
     .top-section div {
         width: 90%
+    }
+
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .row div {
+        width: 40%;
+        margin: 4% 0
     }
 }
